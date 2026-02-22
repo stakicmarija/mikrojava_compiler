@@ -1,0 +1,146 @@
+INFO  22:50:19,624 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  22:50:19,677 - #2 program
+INFO  22:50:19,678 - #45 T3
+INFO  22:50:19,678 - #40 {
+INFO  22:50:19,679 - #12 void
+INFO  22:50:19,680 - #45 main
+INFO  22:50:19,680 - #38 (
+INFO  22:50:19,680 - #39 )
+INFO  22:50:19,681 - #45 int
+INFO  22:50:19,682 - #45 x
+INFO  22:50:19,682 - #34 ;
+INFO  22:50:19,683 - #45 int
+INFO  22:50:19,683 - #45 i
+INFO  22:50:19,683 - #34 ;
+INFO  22:50:19,684 - #45 int
+INFO  22:50:19,684 - #45 y
+INFO  22:50:19,684 - #34 ;
+INFO  22:50:19,684 - #40 {
+INFO  22:50:19,684 - #45 x
+INFO  22:50:19,685 - #27 =
+INFO  22:50:19,685 - #46 1
+INFO  22:50:19,686 - #34 ;
+INFO  22:50:19,688 - #16 switch
+INFO  22:50:19,689 - #38 (
+INFO  22:50:19,689 - #45 x
+INFO  22:50:19,689 - #39 )
+INFO  22:50:19,690 - #40 {
+INFO  22:50:19,690 - #41 }
+INFO  22:50:19,690 - #41 }
+INFO  22:50:19,691 - #41 }
+INFO  22:50:19,698 - Program(
+  ProgName(
+   T3
+  ) [ProgName]
+  DeclList_e(
+  ) [DeclList_e]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_elem(
+          VarDeclListMeth_elem(
+            VarDeclListMeth_e(
+            ) [VarDeclListMeth_e]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclElem_var(
+               x
+              ) [VarDeclElem_var]
+              VarDeclList_e(
+              ) [VarDeclList_e]
+            ) [VarDecl]
+          ) [VarDeclListMeth_elem]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             i
+            ) [VarDeclElem_var]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [VarDeclListMeth_elem]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           y
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_expr(
+              Designator_id(
+               x
+              ) [Designator_id]
+              Assignop(
+              ) [Assignop]
+              Expr_regular(
+                ExprNonTernary(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_num(
+                           1
+                          ) [FactorMore_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprNonTernary]
+              ) [Expr_regular]
+            ) [DesignatorStatement_expr]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_switch(
+          Switch(
+          ) [Switch]
+          Expr_regular(
+            ExprNonTernary(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorMore_var(
+                        Designator_id(
+                         x
+                        ) [Designator_id]
+                      ) [FactorMore_var]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprNonTernary]
+          ) [Expr_regular]
+          CaseList_e(
+          ) [CaseList_e]
+        ) [Statement_switch]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  22:50:19,710 - Generisanje uspesno zavrseno!

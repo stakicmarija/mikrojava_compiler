@@ -1,0 +1,30 @@
+program Ispravan
+
+const int c = 5;
+
+int g;
+int arr[];
+
+{
+    int sum(int a, int b) {
+        return a + b;
+    }
+
+    void main()int i; int x;{
+        arr = new int[5];
+
+        for(i = 0; i < 5; i++) {
+            arr[i] = i;
+        }
+
+        x = sum(arr[0], c);
+
+        if (x > 2) {
+            print(x);
+        } else {
+            print(c);
+        }
+
+        print(x > 2 ? x : c);
+    }
+}

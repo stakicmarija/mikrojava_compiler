@@ -1,0 +1,162 @@
+INFO  13:09:16,964 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  13:09:17,019 - #2 program
+INFO  13:09:17,019 - #45 Test8
+INFO  13:09:17,019 - #40 {
+INFO  13:09:17,021 - #12 void
+INFO  13:09:17,021 - #45 main
+INFO  13:09:17,021 - #38 (
+INFO  13:09:17,022 - #39 )
+INFO  13:09:17,023 - #45 int
+INFO  13:09:17,023 - #45 i
+INFO  13:09:17,023 - #34 ;
+INFO  13:09:17,024 - #45 int
+INFO  13:09:17,025 - #45 j
+INFO  13:09:17,025 - #34 ;
+INFO  13:09:17,025 - #45 int
+INFO  13:09:17,025 - #45 k
+INFO  13:09:17,025 - #34 ;
+INFO  13:09:17,025 - #40 {
+INFO  13:09:17,025 - #45 i
+INFO  13:09:17,026 - #27 =
+INFO  13:09:17,026 - #46 5
+INFO  13:09:17,027 - #34 ;
+INFO  13:09:17,029 - #45 j
+INFO  13:09:17,029 - #27 =
+INFO  13:09:17,029 - #38 (
+INFO  13:09:17,029 - #45 i
+INFO  13:09:17,029 - #30 >
+INFO  13:09:17,029 - #46 3
+INFO  13:09:17,030 - #39 )
+ERROR 13:09:17,031 - 
+Sintaksna greska na liniji 10
+INFO  13:09:17,032 - #44 ?
+INFO  13:09:17,032 - #46 100
+INFO  13:09:17,032 - #37 :
+INFO  13:09:17,032 - #46 200
+INFO  13:09:17,032 - #34 ;
+INFO  13:09:17,033 - #9 print
+INFO  13:09:17,033 - #38 (
+INFO  13:09:17,033 - #45 j
+ERROR 13:09:17,037 - DesignatorStatement OPORAVAK OD GRESKE na liniji: 4
+INFO  13:09:17,037 - #39 )
+INFO  13:09:17,037 - #34 ;
+INFO  13:09:17,037 - #41 }
+INFO  13:09:17,038 - #41 }
+INFO  13:09:17,044 - Program(
+  ProgName(
+   Test8
+  ) [ProgName]
+  DeclList_e(
+  ) [DeclList_e]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_elem(
+          VarDeclListMeth_elem(
+            VarDeclListMeth_e(
+            ) [VarDeclListMeth_e]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclElem_var(
+               i
+              ) [VarDeclElem_var]
+              VarDeclList_e(
+              ) [VarDeclList_e]
+            ) [VarDecl]
+          ) [VarDeclListMeth_elem]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             j
+            ) [VarDeclElem_var]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [VarDeclListMeth_elem]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           k
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_elem(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_designator(
+              DesignatorStatement_expr(
+                Designator_id(
+                 i
+                ) [Designator_id]
+                Assignop(
+                ) [Assignop]
+                Expr_regular(
+                  ExprNonTernary(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Unary_e(
+                            ) [Unary_e]
+                            FactorMore_num(
+                             5
+                            ) [FactorMore_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprNonTernary]
+                ) [Expr_regular]
+              ) [DesignatorStatement_expr]
+            ) [Statement_designator]
+          ) [StatementList_elem]
+          Statement_designator(
+            DesignatorStatement_error(
+            ) [DesignatorStatement_error]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_print(
+          Expr_regular(
+            ExprNonTernary(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorMore_var(
+                        Designator_id(
+                         j
+                        ) [Designator_id]
+                      ) [FactorMore_var]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprNonTernary]
+          ) [Expr_regular]
+        ) [Statement_print]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 13:09:17,056 - Generisanje NIJE uspesno zavrseno!

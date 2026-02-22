@@ -1,0 +1,120 @@
+INFO  10:37:31,386 - Source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:37:31,420 - #2 program
+INFO  10:37:31,421 - #45 Test5
+INFO  10:37:31,421 - #40 {
+INFO  10:37:31,422 - #45 int
+INFO  10:37:31,422 - #45 sum
+INFO  10:37:31,422 - #38 (
+INFO  10:37:31,423 - #45 int
+INFO  10:37:31,423 - #45 a
+INFO  10:37:31,423 - #35 ,
+INFO  10:37:31,423 - #35 ,
+ERROR 10:37:31,423 - 
+Sintaksna greska na liniji 4
+INFO  10:37:31,423 - #45 int
+INFO  10:37:31,424 - #45 b
+INFO  10:37:31,424 - #39 )
+INFO  10:37:31,424 - #40 {
+INFO  10:37:31,424 - #11 return
+INFO  10:37:31,424 - #45 a
+ERROR 10:37:31,424 - Oporavak od greske u formalnim parametrima
+INFO  10:37:31,425 - #18 +
+INFO  10:37:31,426 - #45 b
+INFO  10:37:31,426 - #34 ;
+INFO  10:37:31,427 - #41 }
+INFO  10:37:31,427 - #12 void
+INFO  10:37:31,428 - #45 main
+INFO  10:37:31,428 - #38 (
+INFO  10:37:31,428 - #39 )
+INFO  10:37:31,428 - #40 {
+INFO  10:37:31,428 - #41 }
+INFO  10:37:31,428 - #41 }
+INFO  10:37:31,431 - Program(
+  ProgName(
+   Test5
+  ) [ProgName]
+  DeclList_e(
+  ) [DeclList_e]
+  MethodDeclList_method(
+    MethodDeclList_method(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRet_type(
+          Type(
+           int
+          ) [Type]
+          MethodName(
+           sum
+          ) [MethodName]
+        ) [MethodRet_type]
+        OptFormPars_error(
+        ) [OptFormPars_error]
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ret_expr(
+            Expr_regular(
+              ExprNonTernary(
+                AddopTermList_addop(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_var(
+                            Designator_id(
+                             a
+                            ) [Designator_id]
+                          ) [FactorMore_var]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                  Addop_plus(
+                  ) [Addop_plus]
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorMore_var(
+                          Designator_id(
+                           b
+                          ) [Designator_id]
+                        ) [FactorMore_var]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_addop]
+              ) [ExprNonTernary]
+            ) [Expr_regular]
+          ) [Statement_ret_expr]
+        ) [StatementList_elem]
+      ) [MethodDecl]
+    ) [MethodDeclList_method]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  10:37:31,435 - ============== SEMANTICKA ANALIZA ===================
+ERROR 10:37:31,438 - Semanticka greska: nepoznata promenljiva a na liniji 5
+ERROR 10:37:31,439 - Semanticka greska: nepoznata promenljiva b na liniji 5
+ERROR 10:37:31,439 - Semanticka greska: nevalidni tipovi za addop  na liniji 8
+ERROR 10:37:31,439 - Semanticka greska: nevalidan return tip: sum na liniji 8
+INFO  10:37:31,439 - ==================SINTAKSNA ANALIZA====================
+ERROR 10:37:31,445 - Generisanje NIJE uspesno zavrseno!

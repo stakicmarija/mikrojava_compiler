@@ -1,0 +1,63 @@
+codeSize=101
+dataSize=2
+mainPC=10
+0: enter 2 2
+3: load_0
+4: load_1
+5: add
+6: exit
+7: return
+8: exit
+9: return
+10: enter 0 2
+13: const_5
+14: newarray 1
+16: putstatic 1
+19: const_0
+20: store_0
+21: load_0
+22: const_5
+23: jge 6 (=29)
+26: jmp 6 (=32)
+29: jmp 22 (=51)
+32: jmp 10 (=42)
+35: load_0
+36: const_1
+37: add
+38: store_0
+39: jmp -18 (=21)
+42: getstatic 1
+45: load_0
+46: load_0
+47: astore
+48: jmp -13 (=35)
+51: getstatic 1
+54: const_0
+55: aload
+56: const_5
+57: call -57 (=0)
+60: store_1
+61: load_1
+62: const_2
+63: jle 6 (=69)
+66: jmp 6 (=72)
+69: jmp 9 (=78)
+72: load_1
+73: const_0
+74: print
+75: jmp 6 (=81)
+78: const_5
+79: const_0
+80: print
+81: load_1
+82: const_2
+83: jle 6 (=89)
+86: jmp 6 (=92)
+89: jmp 7 (=96)
+92: load_1
+93: jmp 4 (=97)
+96: const_5
+97: const_0
+98: print
+99: exit
+100: return

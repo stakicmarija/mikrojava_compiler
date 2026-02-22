@@ -1,0 +1,56 @@
+INFO  10:40:42,261 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:40:42,295 - #2 program
+INFO  10:40:42,295 - #45 Marija
+INFO  10:40:42,295 - #6 const
+INFO  10:40:42,296 - #45 int
+INFO  10:40:42,296 - #45 pi
+INFO  10:40:42,297 - #27 =
+INFO  10:40:42,297 - #46 3
+INFO  10:40:42,297 - #34 ;
+INFO  10:40:42,298 - #40 {
+INFO  10:40:42,298 - #12 void
+INFO  10:40:42,299 - #45 main
+INFO  10:40:42,299 - #38 (
+INFO  10:40:42,299 - #39 )
+INFO  10:40:42,299 - #40 {
+INFO  10:40:42,300 - #41 }
+INFO  10:40:42,300 - #41 }
+INFO  10:40:42,302 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_const(
+    DeclList_e(
+    ) [DeclList_e]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem(
+       pi
+        Constant_num(
+         3
+        ) [Constant_num]
+      ) [ConstDeclElem]
+      ConstDeclList_e(
+      ) [ConstDeclList_e]
+    ) [ConstDecl]
+  ) [DeclList_const]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+       main
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  10:40:42,303 - =====================================================================
+INFO  10:40:42,303 - Parsiranje uspesno zavrseno!

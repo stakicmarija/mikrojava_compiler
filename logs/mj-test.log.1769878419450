@@ -1,0 +1,37 @@
+INFO  17:53:26,239 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  17:53:26,263 - #2 program
+INFO  17:53:26,263 - #45 Marija
+INFO  17:53:26,263 - #6 const
+INFO  17:53:26,264 - #45 byte
+INFO  17:53:26,264 - #45 pi
+INFO  17:53:26,264 - #27 =
+INFO  17:53:26,264 - #46 4
+INFO  17:53:26,264 - #34 ;
+INFO  17:53:26,265 - #40 {
+INFO  17:53:26,265 - #41 }
+INFO  17:53:26,266 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_const(
+    DeclList_e(
+    ) [DeclList_e]
+    ConstDecl(
+      Type(
+       byte
+      ) [Type]
+      ConstDeclElem(
+       pi
+        Constant_num(
+         4
+        ) [Constant_num]
+      ) [ConstDeclElem]
+      ConstDeclList_e(
+      ) [ConstDeclList_e]
+    ) [ConstDecl]
+  ) [DeclList_const]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+ERROR 17:53:26,268 - Nepostojeci tip podatka: byte na liniji 3
+ERROR 17:53:26,268 - Parsiranje NIJE uspesno zavrseno!

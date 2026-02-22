@@ -1,0 +1,96 @@
+INFO  21:07:06,455 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  21:07:06,486 - #2 program
+INFO  21:07:06,486 - #45 Marija
+INFO  21:07:06,486 - #6 const
+INFO  21:07:06,487 - #45 int
+INFO  21:07:06,487 - #45 pi
+INFO  21:07:06,488 - #27 =
+INFO  21:07:06,488 - #46 4
+INFO  21:07:06,488 - #34 ;
+INFO  21:07:06,488 - #45 char
+INFO  21:07:06,489 - #45 x
+INFO  21:07:06,489 - #35 ,
+INFO  21:07:06,489 - #45 y
+INFO  21:07:06,489 - #42 [
+INFO  21:07:06,489 - #43 ]
+INFO  21:07:06,489 - #34 ;
+INFO  21:07:06,490 - #40 {
+INFO  21:07:06,490 - #12 void
+INFO  21:07:06,490 - #45 main
+INFO  21:07:06,490 - #38 (
+INFO  21:07:06,491 - #39 )
+INFO  21:07:06,491 - #45 int
+INFO  21:07:06,491 - #45 a
+INFO  21:07:06,491 - #34 ;
+INFO  21:07:06,491 - #40 {
+INFO  21:07:06,491 - #41 }
+INFO  21:07:06,492 - #41 }
+INFO  21:07:06,495 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_var(
+    DeclList_const(
+      DeclList_e(
+      ) [DeclList_e]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem(
+         pi
+          Constant_num(
+           4
+          ) [Constant_num]
+        ) [ConstDeclElem]
+        ConstDeclList_e(
+        ) [ConstDeclList_e]
+      ) [ConstDecl]
+    ) [DeclList_const]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarDeclElem_var(
+       x
+      ) [VarDeclElem_var]
+      VarDeclList_elem(
+        VarDeclElem_arr(
+         y
+        ) [VarDeclElem_arr]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDeclList_elem]
+    ) [VarDecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           a
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  21:07:06,499 - Parsiranje uspesno zavrseno!

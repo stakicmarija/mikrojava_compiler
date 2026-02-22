@@ -1,0 +1,305 @@
+INFO  21:42:58,338 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  21:42:58,350 - #2 program
+INFO  21:42:58,350 - #45 Test1
+INFO  21:42:58,350 - #45 int
+INFO  21:42:58,350 - #45 x
+INFO  21:42:58,351 - #34 ;
+INFO  21:42:58,351 - #45 int
+INFO  21:42:58,351 - #45 y
+INFO  21:42:58,351 - #34 ;
+INFO  21:42:58,351 - #45 char
+INFO  21:42:58,351 - #45 c
+INFO  21:42:58,351 - #34 ;
+INFO  21:42:58,351 - #45 bool
+INFO  21:42:58,351 - #45 b
+INFO  21:42:58,351 - #34 ;
+INFO  21:42:58,351 - #40 {
+INFO  21:42:58,351 - #12 void
+INFO  21:42:58,352 - #45 main
+INFO  21:42:58,352 - #38 (
+INFO  21:42:58,352 - #39 )
+INFO  21:42:58,352 - #40 {
+INFO  21:42:58,352 - #45 x
+INFO  21:42:58,352 - #27 =
+INFO  21:42:58,352 - #46 5
+INFO  21:42:58,352 - #34 ;
+INFO  21:42:58,353 - #45 y
+INFO  21:42:58,353 - #27 =
+INFO  21:42:58,353 - #45 x
+INFO  21:42:58,353 - #34 ;
+INFO  21:42:58,353 - #45 c
+INFO  21:42:58,353 - #27 =
+INFO  21:42:58,353 - #48 A
+INFO  21:42:58,353 - #34 ;
+INFO  21:42:58,353 - #45 c
+INFO  21:42:58,353 - #27 =
+INFO  21:42:58,353 - #46 65
+INFO  21:42:58,353 - #34 ;
+INFO  21:42:58,353 - #45 int
+INFO  21:42:58,353 - #45 z
+ERROR 21:42:58,353 - 
+Sintaksna greska na liniji 14
+INFO  21:42:58,354 - #27 =
+INFO  21:42:58,354 - #48 B
+INFO  21:42:58,354 - #34 ;
+INFO  21:42:58,354 - #45 b
+INFO  21:42:58,354 - #27 =
+INFO  21:42:58,354 - #47 1
+ERROR 21:42:58,356 - DesignatorStatement OPORAVAK OD GRESKE na liniji: 16
+INFO  21:42:58,356 - #34 ;
+INFO  21:42:58,356 - #45 b
+INFO  21:42:58,356 - #27 =
+INFO  21:42:58,356 - #47 0
+INFO  21:42:58,356 - #34 ;
+INFO  21:42:58,356 - #41 }
+INFO  21:42:58,356 - #41 }
+INFO  21:42:58,358 - Program(
+  ProgName(
+   Test1
+  ) [ProgName]
+  DeclList_var(
+    DeclList_var(
+      DeclList_var(
+        DeclList_var(
+          DeclList_e(
+          ) [DeclList_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             x
+            ) [VarDeclElem_var]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [DeclList_var]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           y
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [DeclList_var]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclElem_var(
+         c
+        ) [VarDeclElem_var]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDecl]
+    ) [DeclList_var]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+      VarDeclElem_var(
+       b
+      ) [VarDeclElem_var]
+      VarDeclList_e(
+      ) [VarDeclList_e]
+    ) [VarDecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_elem(
+            StatementList_elem(
+              StatementList_elem(
+                StatementList_elem(
+                  StatementList_elem(
+                    StatementList_e(
+                    ) [StatementList_e]
+                    Statement_designator(
+                      DesignatorStatement_expr(
+                        Designator_id(
+                         x
+                        ) [Designator_id]
+                        Assignop(
+                        ) [Assignop]
+                        Expr_regular(
+                          ExprNonTernary(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Unary_e(
+                                    ) [Unary_e]
+                                    FactorMore_num(
+                                     5
+                                    ) [FactorMore_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprNonTernary]
+                        ) [Expr_regular]
+                      ) [DesignatorStatement_expr]
+                    ) [Statement_designator]
+                  ) [StatementList_elem]
+                  Statement_designator(
+                    DesignatorStatement_expr(
+                      Designator_id(
+                       y
+                      ) [Designator_id]
+                      Assignop(
+                      ) [Assignop]
+                      Expr_regular(
+                        ExprNonTernary(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Unary_e(
+                                  ) [Unary_e]
+                                  FactorMore_var(
+                                    Designator_id(
+                                     x
+                                    ) [Designator_id]
+                                  ) [FactorMore_var]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprNonTernary]
+                      ) [Expr_regular]
+                    ) [DesignatorStatement_expr]
+                  ) [Statement_designator]
+                ) [StatementList_elem]
+                Statement_designator(
+                  DesignatorStatement_expr(
+                    Designator_id(
+                     c
+                    ) [Designator_id]
+                    Assignop(
+                    ) [Assignop]
+                    Expr_regular(
+                      ExprNonTernary(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Unary_e(
+                                ) [Unary_e]
+                                FactorMore_char(
+                                 A
+                                ) [FactorMore_char]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprNonTernary]
+                    ) [Expr_regular]
+                  ) [DesignatorStatement_expr]
+                ) [Statement_designator]
+              ) [StatementList_elem]
+              Statement_designator(
+                DesignatorStatement_expr(
+                  Designator_id(
+                   c
+                  ) [Designator_id]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_regular(
+                    ExprNonTernary(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              FactorMore_num(
+                               65
+                              ) [FactorMore_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprNonTernary]
+                  ) [Expr_regular]
+                ) [DesignatorStatement_expr]
+              ) [Statement_designator]
+            ) [StatementList_elem]
+            Statement_designator(
+              DesignatorStatement_error(
+              ) [DesignatorStatement_error]
+            ) [Statement_designator]
+          ) [StatementList_elem]
+          Statement_designator(
+            DesignatorStatement_expr(
+              Designator_id(
+               b
+              ) [Designator_id]
+              Assignop(
+              ) [Assignop]
+              Expr_regular(
+                ExprNonTernary(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_bool(
+                           1
+                          ) [FactorMore_bool]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprNonTernary]
+              ) [Expr_regular]
+            ) [DesignatorStatement_expr]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_designator(
+          DesignatorStatement_expr(
+            Designator_id(
+             b
+            ) [Designator_id]
+            Assignop(
+            ) [Assignop]
+            Expr_regular(
+              ExprNonTernary(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorMore_bool(
+                         0
+                        ) [FactorMore_bool]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprNonTernary]
+            ) [Expr_regular]
+          ) [DesignatorStatement_expr]
+        ) [Statement_designator]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 21:42:58,361 - Semanticka greska: tipovi nisu kompatibilni:  na liniji 13
+ERROR 21:42:58,361 - Parsiranje NIJE uspesno zavrseno!

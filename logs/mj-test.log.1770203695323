@@ -1,0 +1,501 @@
+INFO  12:14:02,184 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  12:14:02,197 - #2 program
+INFO  12:14:02,198 - #45 Test2
+INFO  12:14:02,198 - #45 int
+INFO  12:14:02,198 - #45 arr
+INFO  12:14:02,198 - #42 [
+INFO  12:14:02,198 - #43 ]
+INFO  12:14:02,198 - #34 ;
+INFO  12:14:02,198 - #6 const
+INFO  12:14:02,198 - #45 bool
+INFO  12:14:02,199 - #45 bo
+INFO  12:14:02,199 - #27 =
+INFO  12:14:02,199 - #47 1
+INFO  12:14:02,199 - #34 ;
+INFO  12:14:02,199 - #6 const
+INFO  12:14:02,199 - #45 char
+INFO  12:14:02,199 - #45 c
+INFO  12:14:02,199 - #27 =
+INFO  12:14:02,199 - #48 c
+INFO  12:14:02,199 - #34 ;
+INFO  12:14:02,199 - #6 const
+INFO  12:14:02,199 - #45 int
+INFO  12:14:02,199 - #45 i
+INFO  12:14:02,199 - #27 =
+INFO  12:14:02,199 - #46 2
+INFO  12:14:02,200 - #34 ;
+INFO  12:14:02,200 - #6 const
+INFO  12:14:02,200 - #45 int
+INFO  12:14:02,200 - #45 n
+INFO  12:14:02,200 - #27 =
+INFO  12:14:02,200 - #46 6
+INFO  12:14:02,200 - #34 ;
+INFO  12:14:02,200 - #45 int
+INFO  12:14:02,200 - #45 x
+INFO  12:14:02,200 - #34 ;
+INFO  12:14:02,200 - #4 enum
+INFO  12:14:02,200 - #45 EN
+INFO  12:14:02,200 - #40 {
+INFO  12:14:02,200 - #45 jedan
+INFO  12:14:02,200 - #35 ,
+INFO  12:14:02,200 - #45 dva
+INFO  12:14:02,200 - #41 }
+INFO  12:14:02,200 - #40 {
+INFO  12:14:02,201 - #45 int
+INFO  12:14:02,201 - #45 meth
+INFO  12:14:02,201 - #38 (
+INFO  12:14:02,201 - #45 int
+INFO  12:14:02,201 - #45 a
+INFO  12:14:02,201 - #35 ,
+INFO  12:14:02,201 - #45 bool
+INFO  12:14:02,201 - #45 b
+INFO  12:14:02,201 - #35 ,
+INFO  12:14:02,201 - #45 char
+INFO  12:14:02,201 - #45 c
+INFO  12:14:02,201 - #39 )
+INFO  12:14:02,201 - #45 int
+INFO  12:14:02,202 - #45 s
+INFO  12:14:02,202 - #34 ;
+INFO  12:14:02,202 - #40 {
+INFO  12:14:02,202 - #45 a
+INFO  12:14:02,202 - #27 =
+INFO  12:14:02,202 - #45 n
+INFO  12:14:02,202 - #34 ;
+INFO  12:14:02,203 - #11 return
+INFO  12:14:02,203 - #45 i
+INFO  12:14:02,203 - #34 ;
+INFO  12:14:02,204 - #41 }
+INFO  12:14:02,204 - #45 int
+INFO  12:14:02,204 - #45 nmp
+INFO  12:14:02,204 - #38 (
+INFO  12:14:02,204 - #39 )
+INFO  12:14:02,204 - #40 {
+INFO  12:14:02,204 - #45 x
+INFO  12:14:02,204 - #27 =
+INFO  12:14:02,204 - #45 meth
+INFO  12:14:02,204 - #38 (
+INFO  12:14:02,204 - #45 i
+INFO  12:14:02,204 - #35 ,
+INFO  12:14:02,204 - #45 bo
+INFO  12:14:02,204 - #35 ,
+INFO  12:14:02,204 - #45 c
+INFO  12:14:02,204 - #39 )
+INFO  12:14:02,205 - #34 ;
+INFO  12:14:02,205 - #11 return
+INFO  12:14:02,205 - #45 i
+INFO  12:14:02,205 - #18 +
+INFO  12:14:02,205 - #45 n
+INFO  12:14:02,205 - #34 ;
+INFO  12:14:02,205 - #41 }
+INFO  12:14:02,205 - #12 void
+INFO  12:14:02,205 - #45 main
+INFO  12:14:02,205 - #38 (
+INFO  12:14:02,205 - #39 )
+INFO  12:14:02,205 - #40 {
+INFO  12:14:02,205 - #45 nmp
+INFO  12:14:02,205 - #38 (
+INFO  12:14:02,205 - #39 )
+INFO  12:14:02,205 - #34 ;
+INFO  12:14:02,205 - #41 }
+INFO  12:14:02,206 - #41 }
+INFO  12:14:02,209 - Program(
+  ProgName(
+   Test2
+  ) [ProgName]
+  DeclList_enum(
+    DeclList_var(
+      DeclList_const(
+        DeclList_const(
+          DeclList_const(
+            DeclList_const(
+              DeclList_var(
+                DeclList_e(
+                ) [DeclList_e]
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclElem_arr(
+                   arr
+                  ) [VarDeclElem_arr]
+                  VarDeclList_e(
+                  ) [VarDeclList_e]
+                ) [VarDecl]
+              ) [DeclList_var]
+              ConstDecl(
+                Type(
+                 bool
+                ) [Type]
+                ConstDeclElem(
+                 bo
+                  Constant_bool(
+                   1
+                  ) [Constant_bool]
+                ) [ConstDeclElem]
+                ConstDeclList_e(
+                ) [ConstDeclList_e]
+              ) [ConstDecl]
+            ) [DeclList_const]
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+              ConstDeclElem(
+               c
+                Constant_char(
+                 c
+                ) [Constant_char]
+              ) [ConstDeclElem]
+              ConstDeclList_e(
+              ) [ConstDeclList_e]
+            ) [ConstDecl]
+          ) [DeclList_const]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDeclElem(
+             i
+              Constant_num(
+               2
+              ) [Constant_num]
+            ) [ConstDeclElem]
+            ConstDeclList_e(
+            ) [ConstDeclList_e]
+          ) [ConstDecl]
+        ) [DeclList_const]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem(
+           n
+            Constant_num(
+             6
+            ) [Constant_num]
+          ) [ConstDeclElem]
+          ConstDeclList_e(
+          ) [ConstDeclList_e]
+        ) [ConstDecl]
+      ) [DeclList_const]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclElem_var(
+         x
+        ) [VarDeclElem_var]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDecl]
+    ) [DeclList_var]
+    EnumDecl(
+      EnumName(
+       EN
+      ) [EnumName]
+      EnumElem_id(
+       jedan
+      ) [EnumElem_id]
+      EnumList_elem(
+        EnumElem_id(
+         dva
+        ) [EnumElem_id]
+        EnumList_e(
+        ) [EnumList_e]
+      ) [EnumList_elem]
+    ) [EnumDecl]
+  ) [DeclList_enum]
+  MethodDeclList_method(
+    MethodDeclList_method(
+      MethodDeclList_method(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethodRet_type(
+            Type(
+             int
+            ) [Type]
+            MethodName(
+             meth
+            ) [MethodName]
+          ) [MethodRet_type]
+          OptFormPars_form(
+            FormPars(
+              FormParsElem_elem(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormParsElem_elem]
+              FormParsList_elem(
+                FormParsElem_elem(
+                  Type(
+                   bool
+                  ) [Type]
+                 b
+                ) [FormParsElem_elem]
+                FormParsList_elem(
+                  FormParsElem_elem(
+                    Type(
+                     char
+                    ) [Type]
+                   c
+                  ) [FormParsElem_elem]
+                  FormParsList_e(
+                  ) [FormParsList_e]
+                ) [FormParsList_elem]
+              ) [FormParsList_elem]
+            ) [FormPars]
+          ) [OptFormPars_form]
+          VarDeclListMeth_elem(
+            VarDeclListMeth_e(
+            ) [VarDeclListMeth_e]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclElem_var(
+               s
+              ) [VarDeclElem_var]
+              VarDeclList_e(
+              ) [VarDeclList_e]
+            ) [VarDecl]
+          ) [VarDeclListMeth_elem]
+          StatementList_elem(
+            StatementList_elem(
+              StatementList_e(
+              ) [StatementList_e]
+              Statement_designator(
+                DesignatorStatement_expr(
+                  Designator_id(
+                   a
+                  ) [Designator_id]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_regular(
+                    ExprNonTernary(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              FactorMore_var(
+                                Designator_id(
+                                 n
+                                ) [Designator_id]
+                              ) [FactorMore_var]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprNonTernary]
+                  ) [Expr_regular]
+                ) [DesignatorStatement_expr]
+              ) [Statement_designator]
+            ) [StatementList_elem]
+            Statement_ret_expr(
+              Expr_regular(
+                ExprNonTernary(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_var(
+                            Designator_id(
+                             i
+                            ) [Designator_id]
+                          ) [FactorMore_var]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprNonTernary]
+              ) [Expr_regular]
+            ) [Statement_ret_expr]
+          ) [StatementList_elem]
+        ) [MethodDecl]
+      ) [MethodDeclList_method]
+      MethodDecl(
+        MethodRet_type(
+          Type(
+           int
+          ) [Type]
+          MethodName(
+           nmp
+          ) [MethodName]
+        ) [MethodRet_type]
+        OptFormPars_e(
+        ) [OptFormPars_e]
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        StatementList_elem(
+          StatementList_elem(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_designator(
+              DesignatorStatement_expr(
+                Designator_id(
+                 x
+                ) [Designator_id]
+                Assignop(
+                ) [Assignop]
+                Expr_regular(
+                  ExprNonTernary(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Unary_e(
+                            ) [Unary_e]
+                            FactorMore_meth(
+                              Designator_id(
+                               meth
+                              ) [Designator_id]
+                              OptActPars_act(
+                                ActPars(
+                                  ExprList_list(
+                                    ExprList_list(
+                                      ExprList_elem(
+                                        Expr_regular(
+                                          ExprNonTernary(
+                                            AddopTermList_term(
+                                              Term(
+                                                MulopFactorList_factor(
+                                                  Factor(
+                                                    Unary_e(
+                                                    ) [Unary_e]
+                                                    FactorMore_var(
+                                                      Designator_id(
+                                                       i
+                                                      ) [Designator_id]
+                                                    ) [FactorMore_var]
+                                                  ) [Factor]
+                                                ) [MulopFactorList_factor]
+                                              ) [Term]
+                                            ) [AddopTermList_term]
+                                          ) [ExprNonTernary]
+                                        ) [Expr_regular]
+                                      ) [ExprList_elem]
+                                      Expr_regular(
+                                        ExprNonTernary(
+                                          AddopTermList_term(
+                                            Term(
+                                              MulopFactorList_factor(
+                                                Factor(
+                                                  Unary_e(
+                                                  ) [Unary_e]
+                                                  FactorMore_var(
+                                                    Designator_id(
+                                                     bo
+                                                    ) [Designator_id]
+                                                  ) [FactorMore_var]
+                                                ) [Factor]
+                                              ) [MulopFactorList_factor]
+                                            ) [Term]
+                                          ) [AddopTermList_term]
+                                        ) [ExprNonTernary]
+                                      ) [Expr_regular]
+                                    ) [ExprList_list]
+                                    Expr_regular(
+                                      ExprNonTernary(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Unary_e(
+                                                ) [Unary_e]
+                                                FactorMore_var(
+                                                  Designator_id(
+                                                   c
+                                                  ) [Designator_id]
+                                                ) [FactorMore_var]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprNonTernary]
+                                    ) [Expr_regular]
+                                  ) [ExprList_list]
+                                ) [ActPars]
+                              ) [OptActPars_act]
+                            ) [FactorMore_meth]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprNonTernary]
+                ) [Expr_regular]
+              ) [DesignatorStatement_expr]
+            ) [Statement_designator]
+          ) [StatementList_elem]
+          Statement_ret_expr(
+            Expr_regular(
+              ExprNonTernary(
+                AddopTermList_addop(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_var(
+                            Designator_id(
+                             i
+                            ) [Designator_id]
+                          ) [FactorMore_var]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                  Addop_plus(
+                  ) [Addop_plus]
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorMore_var(
+                          Designator_id(
+                           n
+                          ) [Designator_id]
+                        ) [FactorMore_var]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_addop]
+              ) [ExprNonTernary]
+            ) [Expr_regular]
+          ) [Statement_ret_expr]
+        ) [StatementList_elem]
+      ) [MethodDecl]
+    ) [MethodDeclList_method]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_paren(
+            Designator_id(
+             nmp
+            ) [Designator_id]
+          ) [DesignatorStatement_paren]
+        ) [Statement_designator]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 12:14:02,211 - Semanticka greska: pogresan broj argumenata na liniji 20
+ERROR 12:14:02,211 - Semanticka greska: tipovi nisu kompatibilni na liniji 20
+ERROR 12:14:02,211 - Parsiranje NIJE uspesno zavrseno!

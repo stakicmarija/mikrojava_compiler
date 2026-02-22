@@ -1,0 +1,127 @@
+INFO  21:07:40,408 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  21:07:40,440 - #2 program
+INFO  21:07:40,440 - #45 Marija
+INFO  21:07:40,440 - #45 int
+INFO  21:07:40,441 - #45 a
+INFO  21:07:40,442 - #34 ;
+INFO  21:07:40,442 - #6 const
+INFO  21:07:40,443 - #45 int
+INFO  21:07:40,443 - #45 pi
+INFO  21:07:40,443 - #27 =
+INFO  21:07:40,443 - #46 4
+INFO  21:07:40,443 - #34 ;
+INFO  21:07:40,443 - #45 char
+INFO  21:07:40,444 - #45 x
+INFO  21:07:40,444 - #35 ,
+INFO  21:07:40,444 - #45 y
+INFO  21:07:40,444 - #42 [
+INFO  21:07:40,444 - #43 ]
+INFO  21:07:40,444 - #34 ;
+INFO  21:07:40,444 - #45 int
+INFO  21:07:40,444 - #45 a
+INFO  21:07:40,444 - #34 ;
+INFO  21:07:40,444 - #40 {
+INFO  21:07:40,444 - #12 void
+INFO  21:07:40,445 - #45 main
+INFO  21:07:40,445 - #38 (
+INFO  21:07:40,445 - #39 )
+INFO  21:07:40,445 - #45 int
+INFO  21:07:40,446 - #45 a
+INFO  21:07:40,446 - #34 ;
+INFO  21:07:40,446 - #40 {
+INFO  21:07:40,446 - #41 }
+INFO  21:07:40,446 - #41 }
+INFO  21:07:40,449 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_var(
+    DeclList_var(
+      DeclList_const(
+        DeclList_var(
+          DeclList_e(
+          ) [DeclList_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             a
+            ) [VarDeclElem_var]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [DeclList_var]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem(
+           pi
+            Constant_num(
+             4
+            ) [Constant_num]
+          ) [ConstDeclElem]
+          ConstDeclList_e(
+          ) [ConstDeclList_e]
+        ) [ConstDecl]
+      ) [DeclList_const]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclElem_var(
+         x
+        ) [VarDeclElem_var]
+        VarDeclList_elem(
+          VarDeclElem_arr(
+           y
+          ) [VarDeclElem_arr]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDeclList_elem]
+      ) [VarDecl]
+    ) [DeclList_var]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclElem_var(
+       a
+      ) [VarDeclElem_var]
+      VarDeclList_e(
+      ) [VarDeclList_e]
+    ) [VarDecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           a
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 21:07:40,453 - Dvostruka definicija globalne promenljive: a na liniji 6
+ERROR 21:07:40,454 - Parsiranje NIJE uspesno zavrseno!

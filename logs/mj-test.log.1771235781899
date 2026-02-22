@@ -1,0 +1,119 @@
+INFO  10:53:39,025 - Source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:53:39,079 - #2 program
+INFO  10:53:39,079 - #45 RecoveryStress
+INFO  10:53:39,079 - #45 int
+INFO  10:53:39,081 - #45 x
+INFO  10:53:39,082 - #45 y
+ERROR 10:53:39,082 - 
+Sintaksna greska na liniji 3
+INFO  10:53:39,082 - #34 ;
+INFO  10:53:39,082 - #45 int
+INFO  10:53:39,082 - #45 a
+INFO  10:53:39,083 - #35 ,
+ERROR 10:53:39,087 - Oporavak od greske u globalnoj deklaraciji do ';' na liniji 3
+INFO  10:53:39,087 - #35 ,
+ERROR 10:53:39,088 - 
+Sintaksna greska na liniji 4
+INFO  10:53:39,088 - #45 b
+INFO  10:53:39,088 - #34 ;
+INFO  10:53:39,088 - #40 {
+INFO  10:53:39,089 - #45 int
+INFO  10:53:39,089 - #45 sum
+ERROR 10:53:39,089 - Oporavak od greske u globalnoj deklaraciji do ';' na liniji 4
+INFO  10:53:39,090 - #38 (
+INFO  10:53:39,091 - #45 int
+INFO  10:53:39,091 - #45 p
+INFO  10:53:39,092 - #35 ,
+INFO  10:53:39,092 - #35 ,
+ERROR 10:53:39,092 - 
+Sintaksna greska na liniji 7
+INFO  10:53:39,092 - #45 int
+INFO  10:53:39,092 - #45 q
+INFO  10:53:39,093 - #39 )
+INFO  10:53:39,093 - #40 {
+INFO  10:53:39,093 - #11 return
+INFO  10:53:39,093 - #45 p
+ERROR 10:53:39,094 - Izvrsen oporavak od greske u formalnim parametrima na liniji7
+INFO  10:53:39,096 - #18 +
+INFO  10:53:39,097 - #45 q
+INFO  10:53:39,098 - #34 ;
+INFO  10:53:39,098 - #41 }
+INFO  10:53:39,099 - #12 void
+INFO  10:53:39,099 - #45 main
+INFO  10:53:39,099 - #38 (
+INFO  10:53:39,100 - #39 )
+INFO  10:53:39,100 - #45 int
+INFO  10:53:39,101 - #45 i
+INFO  10:53:39,101 - #34 ;
+INFO  10:53:39,102 - #40 {
+INFO  10:53:39,103 - #45 x
+INFO  10:53:39,104 - #27 =
+INFO  10:53:39,105 - #34 ;
+ERROR 10:53:39,107 - 
+Sintaksna greska na liniji 13
+INFO  10:53:39,108 - #45 a
+INFO  10:53:39,108 - #27 =
+INFO  10:53:39,109 - #46 5
+ERROR 10:53:39,113 - OPORAVAK OD GRESKE u iskazu dodele do ';' na liniji 23
+INFO  10:53:39,116 - #18 +
+INFO  10:53:39,117 - #34 ;
+ERROR 10:53:39,117 - 
+Sintaksna greska na liniji 14
+INFO  10:53:39,117 - #7 if
+INFO  10:53:39,117 - #38 (
+INFO  10:53:39,117 - #45 x
+ERROR 10:53:39,117 - OPORAVAK OD GRESKE u iskazu dodele do ';' na liniji 23
+INFO  10:53:39,117 - #30 >
+INFO  10:53:39,117 - #39 )
+ERROR 10:53:39,117 - 
+Sintaksna greska na liniji 16
+INFO  10:53:39,118 - #9 print
+INFO  10:53:39,118 - #38 (
+INFO  10:53:39,118 - #45 x
+ERROR 10:53:39,118 - OPORAVAK OD GRESKE u IF uslovu do ')' na liniji 11
+INFO  10:53:39,119 - #39 )
+INFO  10:53:39,119 - #34 ;
+INFO  10:53:39,119 - #7 if
+INFO  10:53:39,119 - #38 (
+INFO  10:53:39,119 - #45 x
+INFO  10:53:39,119 - #30 >
+INFO  10:53:39,119 - #46 5
+INFO  10:53:39,120 - #22 &&
+INFO  10:53:39,121 - #39 )
+ERROR 10:53:39,121 - 
+Sintaksna greska na liniji 19
+INFO  10:53:39,121 - #9 print
+INFO  10:53:39,121 - #38 (
+INFO  10:53:39,121 - #45 x
+ERROR 10:53:39,121 - OPORAVAK OD GRESKE u IF uslovu do ')' na liniji 11
+INFO  10:53:39,121 - #39 )
+INFO  10:53:39,121 - #34 ;
+INFO  10:53:39,122 - #14 for
+INFO  10:53:39,122 - #38 (
+INFO  10:53:39,122 - #45 i
+INFO  10:53:39,122 - #27 =
+INFO  10:53:39,122 - #46 0
+INFO  10:53:39,122 - #34 ;
+INFO  10:53:39,123 - #45 i
+INFO  10:53:39,124 - #33 <
+INFO  10:53:39,125 - #34 ;
+ERROR 10:53:39,125 - 
+Sintaksna greska na liniji 22
+INFO  10:53:39,125 - #45 i
+INFO  10:53:39,125 - #19 ++
+INFO  10:53:39,125 - #39 )
+INFO  10:53:39,125 - #40 {
+INFO  10:53:39,125 - #9 print
+INFO  10:53:39,125 - #38 (
+INFO  10:53:39,125 - #45 i
+INFO  10:53:39,126 - #39 )
+INFO  10:53:39,126 - #34 ;
+INFO  10:53:39,126 - #41 }
+INFO  10:53:39,126 - #9 print
+INFO  10:53:39,126 - #38 (
+INFO  10:53:39,126 - #46 10
+INFO  10:53:39,127 - #39 )
+INFO  10:53:39,127 - #34 ;
+INFO  10:53:39,127 - #41 }
+INFO  10:53:39,127 - #41 }
+ERROR 10:53:39,127 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 30

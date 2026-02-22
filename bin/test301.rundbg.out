@@ -1,0 +1,384 @@
+
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+    0: enter       0 5 
+     | 
+    3: const_0     
+     | 0 
+    4: store_2     
+     | 
+    5: const_1     
+     | 1 
+    6: store_3     
+     | 
+    7: const_0     
+     | 0 
+    8: store_0     
+     | 
+    9: load_0      
+     | 0 
+   10: const_1     
+     | 0 1 
+   11: add         
+     | 1 
+   12: store_0     
+     | 
+   13: load_0      
+     | 1 
+   14: load_3      
+     | 1 1 
+   15: add         
+     | 2 
+   16: store_0     
+     | 
+   17: load_0      
+     | 2 
+   18: const_5     
+     | 2 5 
+   19: mul         
+     | 10 
+   20: store_0     
+     | 
+   21: load_0      
+     | 10 
+   22: const_1     
+     | 10 1 
+   23: sub         
+     | 9 
+   24: store_0     
+     | 
+   25: load_0      
+     | 9 
+   26: const_0     
+     | 9 0 
+   27: print       9
+     | 
+   28: const       10 
+     | 10 
+   33: const_0     
+     | 10 0 
+   34: bprint      
+
+     | 
+   35: const_3     
+     | 3 
+   36: newarray    1 
+     | 2 
+   38: putstatic   0 
+     | 
+   41: getstatic   0 
+     | 2 
+   44: load_2      
+     | 2 0 
+   45: const_2     
+     | 2 0 2 
+   46: astore      
+Arraylength = 3
+Address = 2
+Index = 0
+Value = 2
+
+     | 
+   47: getstatic   0 
+     | 2 
+   50: load_3      
+     | 2 1 
+   51: const_3     
+     | 2 1 3 
+   52: astore      
+Arraylength = 3
+Address = 2
+Index = 1
+Value = 3
+
+     | 
+   53: getstatic   0 
+     | 2 
+   56: getstatic   0 
+     | 2 2 
+   59: load_2      
+     | 2 2 0 
+   60: aload       
+     | 2 2 
+   61: getstatic   0 
+     | 2 2 2 
+   64: const_1     
+     | 2 2 2 1 
+   65: aload       
+     | 2 2 3 
+   66: const_4     
+     | 2 2 3 4 
+   67: mul         
+     | 2 2 12 
+   68: astore      
+Arraylength = 3
+Address = 2
+Index = 2
+Value = 12
+
+     | 
+   69: getstatic   0 
+     | 2 
+   72: const_2     
+     | 2 2 
+   73: aload       
+     | 12 
+   74: getstatic   0 
+     | 12 2 
+   77: const_0     
+     | 12 2 0 
+   78: aload       
+     | 12 2 
+   79: div         
+     | 6 
+   80: store_0     
+     | 
+   81: load_0      
+     | 6 
+   82: const_0     
+     | 6 0 
+   83: print       6
+     | 
+   84: const       10 
+     | 10 
+   89: const_0     
+     | 10 0 
+   90: bprint      
+
+     | 
+   91: getstatic   0 
+     | 2 
+   94: const_2     
+     | 2 2 
+   95: aload       
+     | 12 
+   96: const_0     
+     | 12 0 
+   97: print       12
+     | 
+   98: const       10 
+     | 10 
+  103: const_0     
+     | 10 0 
+  104: bprint      
+
+     | 
+  105: const_3     
+     | 3 
+  106: newarray    0 
+     | 6 
+  108: putstatic   1 
+     | 
+  111: getstatic   1 
+     | 6 
+  114: const_0     
+     | 6 0 
+  115: const       97 
+     | 6 0 97 
+  120: bastore     
+     | 
+  121: getstatic   1 
+     | 6 
+  124: load_3      
+     | 6 1 
+  125: const       98 
+     | 6 1 98 
+  130: bastore     
+     | 
+  131: getstatic   1 
+     | 6 
+  134: const_5     
+     | 6 5 
+  135: const_3     
+     | 6 5 3 
+  136: sub         
+     | 6 2 
+  137: const       99 
+     | 6 2 99 
+  142: bastore     
+     | 
+  143: getstatic   1 
+     | 6 
+  146: const_1     
+     | 6 1 
+  147: baload      
+     | 98 
+  148: const_0     
+     | 98 0 
+  149: bprint      b
+     | 
+  150: const       10 
+     | 10 
+  155: const_0     
+     | 10 0 
+  156: bprint      
+
+     | 
+  157: getstatic   1 
+     | 6 
+  160: load_3      
+     | 6 1 
+  161: const_2     
+     | 6 1 2 
+  162: mul         
+     | 6 2 
+  163: baload      
+     | 99 
+  164: const_0     
+     | 99 0 
+  165: bprint      c
+     | 
+  166: const       10 
+     | 10 
+  171: const_0     
+     | 10 0 
+  172: bprint      
+
+     | 
+  173: getstatic   1 
+     | 6 
+  176: const_0     
+     | 6 0 
+  177: baload      
+     | 97 
+  178: const_0     
+     | 97 0 
+  179: print       97
+     | 
+  180: getstatic   1 
+     | 6 
+  183: arraylength 
+     | 3 
+  184: const_0     
+     | 3 0 
+  185: print       3
+     | 
+  186: getstatic   0 
+     | 2 
+  189: arraylength 
+     | 3 
+  190: const_0     
+     | 3 0 
+  191: print       3
+     | 
+  192: const_1     
+     | 1 
+  193: putstatic   2 
+     | 
+  196: read        
+     | 1 
+  197: store_0     
+     | 
+  198: load_0      
+     | 1 
+  199: neg         
+     | -1 
+  200: const_5     
+     | -1 5 
+  201: getstatic   2 
+     | -1 5 1 
+  204: mul         
+     | -1 5 
+  205: const_2     
+     | -1 5 2 
+  206: div         
+     | -1 2 
+  207: load_2      
+     | -1 2 0 
+  208: sub         
+     | -1 2 
+  209: load_0      
+     | -1 2 1 
+  210: mul         
+     | -1 2 
+  211: add         
+     | 1 
+  212: const_3     
+     | 1 3 
+  213: const_2     
+     | 1 3 2 
+  214: rem         
+     | 1 1 
+  215: const_3     
+     | 1 1 3 
+  216: const_2     
+     | 1 1 3 2 
+  217: mul         
+     | 1 1 6 
+  218: add         
+     | 1 7 
+  219: const       7 
+     | 1 7 7 
+  224: sub         
+     | 1 0 
+  225: sub         
+     | 1 
+  226: store_0     
+     | 
+  227: load_0      
+     | 1 
+  228: const_0     
+     | 1 0 
+  229: print       1
+     | 
+  230: read        
+     | 2 
+  231: store_0     
+     | 
+  232: const_1     
+     | 1 
+  233: store       4 
+     | 
+  235: load        4 
+     | 1 
+  237: const_1     
+     | 1 1 
+  238: jne         6 
+     | 
+  241: jmp         6 
+     | 
+  247: load_0      
+     | 2 
+  248: jmp         10 
+     | 2 
+  258: const_0     
+     | 2 0 
+  259: print       2
+     | 
+  260: const_0     
+     | 0 
+  261: const_1     
+     | 0 1 
+  262: jne         6 
+     | 
+  268: jmp         13 
+     | 
+  281: load_0      
+     | 2 
+  282: const       30 
+     | 2 30 
+  287: add         
+     | 32 
+  288: const_0     
+     | 32 0 
+  289: print       32
+     | 
+  290: load_0      
+     | 2 
+  291: const       10 
+     | 2 10 
+  296: jle         6 
+     | 
+  302: jmp         11 
+     | 
+  313: const       45 
+     | 45 
+  318: const_0     
+     | 45 0 
+  319: bprint      -
+     | 
+  320: exit        
+     | 
+  321: return      
+Completion took 33 ms

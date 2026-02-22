@@ -1,0 +1,147 @@
+INFO  21:40:52,032 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  21:40:52,057 - #2 program
+INFO  21:40:52,057 - #45 Test1
+INFO  21:40:52,057 - #40 {
+INFO  21:40:52,058 - #12 void
+INFO  21:40:52,058 - #45 main
+INFO  21:40:52,058 - #38 (
+INFO  21:40:52,058 - #39 )
+INFO  21:40:52,058 - #40 {
+INFO  21:40:52,059 - #45 int
+INFO  21:40:52,059 - #45 x
+ERROR 21:40:52,059 - 
+Sintaksna greska na liniji 4
+INFO  21:40:52,059 - #27 =
+INFO  21:40:52,059 - #46 5
+INFO  21:40:52,059 - #34 ;
+INFO  21:40:52,059 - #45 int
+INFO  21:40:52,059 - #45 y
+INFO  21:40:52,059 - #27 =
+INFO  21:40:52,059 - #45 x
+INFO  21:40:52,059 - #34 ;
+INFO  21:40:52,059 - #45 char
+INFO  21:40:52,059 - #45 c
+INFO  21:40:52,059 - #27 =
+INFO  21:40:52,060 - #48 A
+INFO  21:40:52,060 - #34 ;
+INFO  21:40:52,060 - #45 c
+INFO  21:40:52,060 - #27 =
+INFO  21:40:52,060 - #46 65
+ERROR 21:40:52,061 - DesignatorStatement OPORAVAK OD GRESKE na liniji: 16
+INFO  21:40:52,062 - #34 ;
+INFO  21:40:52,063 - #45 int
+INFO  21:40:52,063 - #45 z
+ERROR 21:40:52,063 - 
+Sintaksna greska na liniji 8
+INFO  21:40:52,063 - #27 =
+INFO  21:40:52,063 - #48 B
+INFO  21:40:52,063 - #34 ;
+INFO  21:40:52,063 - #45 bool
+INFO  21:40:52,063 - #45 b
+INFO  21:40:52,063 - #27 =
+INFO  21:40:52,063 - #47 1
+INFO  21:40:52,063 - #34 ;
+INFO  21:40:52,064 - #45 b
+INFO  21:40:52,064 - #27 =
+INFO  21:40:52,064 - #47 0
+ERROR 21:40:52,064 - DesignatorStatement OPORAVAK OD GRESKE na liniji: 16
+INFO  21:40:52,064 - #34 ;
+INFO  21:40:52,064 - #41 }
+INFO  21:40:52,064 - #41 }
+INFO  21:40:52,065 - Program(
+  ProgName(
+   Test1
+  ) [ProgName]
+  DeclList_e(
+  ) [DeclList_e]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_elem(
+            StatementList_elem(
+              StatementList_e(
+              ) [StatementList_e]
+              Statement_designator(
+                DesignatorStatement_error(
+                ) [DesignatorStatement_error]
+              ) [Statement_designator]
+            ) [StatementList_elem]
+            Statement_designator(
+              DesignatorStatement_expr(
+                Designator_id(
+                 c
+                ) [Designator_id]
+                Assignop(
+                ) [Assignop]
+                Expr_regular(
+                  ExprNonTernary(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Unary_e(
+                            ) [Unary_e]
+                            FactorMore_num(
+                             65
+                            ) [FactorMore_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprNonTernary]
+                ) [Expr_regular]
+              ) [DesignatorStatement_expr]
+            ) [Statement_designator]
+          ) [StatementList_elem]
+          Statement_designator(
+            DesignatorStatement_error(
+            ) [DesignatorStatement_error]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_designator(
+          DesignatorStatement_expr(
+            Designator_id(
+             b
+            ) [Designator_id]
+            Assignop(
+            ) [Assignop]
+            Expr_regular(
+              ExprNonTernary(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorMore_bool(
+                         0
+                        ) [FactorMore_bool]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprNonTernary]
+            ) [Expr_regular]
+          ) [DesignatorStatement_expr]
+        ) [Statement_designator]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 21:40:52,068 - Semanticka greska: nepoznata promenljiva: c na liniji 7
+ERROR 21:40:52,068 - Semanticka greska: nepoznata promenljiva na levoj strani na liniji 7
+ERROR 21:40:52,068 - Semanticka greska: nepoznata promenljiva: b na liniji 10
+ERROR 21:40:52,068 - Semanticka greska: nepoznata promenljiva na levoj strani na liniji 10
+ERROR 21:40:52,069 - Parsiranje NIJE uspesno zavrseno!

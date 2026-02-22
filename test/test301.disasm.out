@@ -1,0 +1,195 @@
+codeSize=322
+dataSize=3
+mainPC=0
+0: enter 0 5
+3: const_0
+4: store_2
+5: const_1
+6: store_3
+7: const_0
+8: store_0
+9: load_0
+10: const_1
+11: add
+12: store_0
+13: load_0
+14: load_3
+15: add
+16: store_0
+17: load_0
+18: const_5
+19: mul
+20: store_0
+21: load_0
+22: const_1
+23: sub
+24: store_0
+25: load_0
+26: const_0
+27: print
+28: const 10
+33: const_0
+34: bprint
+35: const_3
+36: newarray 1
+38: putstatic 0
+41: getstatic 0
+44: load_2
+45: const_2
+46: astore
+47: getstatic 0
+50: load_3
+51: const_3
+52: astore
+53: getstatic 0
+56: getstatic 0
+59: load_2
+60: aload
+61: getstatic 0
+64: const_1
+65: aload
+66: const_4
+67: mul
+68: astore
+69: getstatic 0
+72: const_2
+73: aload
+74: getstatic 0
+77: const_0
+78: aload
+79: div
+80: store_0
+81: load_0
+82: const_0
+83: print
+84: const 10
+89: const_0
+90: bprint
+91: getstatic 0
+94: const_2
+95: aload
+96: const_0
+97: print
+98: const 10
+103: const_0
+104: bprint
+105: const_3
+106: newarray 0
+108: putstatic 1
+111: getstatic 1
+114: const_0
+115: const 97
+120: bastore
+121: getstatic 1
+124: load_3
+125: const 98
+130: bastore
+131: getstatic 1
+134: const_5
+135: const_3
+136: sub
+137: const 99
+142: bastore
+143: getstatic 1
+146: const_1
+147: baload
+148: const_0
+149: bprint
+150: const 10
+155: const_0
+156: bprint
+157: getstatic 1
+160: load_3
+161: const_2
+162: mul
+163: baload
+164: const_0
+165: bprint
+166: const 10
+171: const_0
+172: bprint
+173: getstatic 1
+176: const_0
+177: baload
+178: const_0
+179: print
+180: getstatic 1
+183: arraylength
+184: const_0
+185: print
+186: getstatic 0
+189: arraylength
+190: const_0
+191: print
+192: const_1
+193: putstatic 2
+196: read
+197: store_0
+198: load_0
+199: neg
+200: const_5
+201: getstatic 2
+204: mul
+205: const_2
+206: div
+207: load_2
+208: sub
+209: load_0
+210: mul
+211: add
+212: const_3
+213: const_2
+214: rem
+215: const_3
+216: const_2
+217: mul
+218: add
+219: const 7
+224: sub
+225: sub
+226: store_0
+227: load_0
+228: const_0
+229: print
+230: read
+231: store_0
+232: const_1
+233: store 4
+235: load 4
+237: const_1
+238: jne 6 (=244)
+241: jmp 6 (=247)
+244: jmp 7 (=251)
+247: load_0
+248: jmp 10 (=258)
+251: load_0
+252: const 10
+257: add
+258: const_0
+259: print
+260: const_0
+261: const_1
+262: jne 6 (=268)
+265: jmp 6 (=271)
+268: jmp 13 (=281)
+271: load_0
+272: const 20
+277: add
+278: jmp 10 (=288)
+281: load_0
+282: const 30
+287: add
+288: const_0
+289: print
+290: load_0
+291: const 10
+296: jle 6 (=302)
+299: jmp 6 (=305)
+302: jmp 11 (=313)
+305: const 43
+310: jmp 8 (=318)
+313: const 45
+318: const_0
+319: bprint
+320: exit
+321: return

@@ -1,0 +1,94 @@
+INFO  10:28:54,636 - Source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:28:54,674 - #2 program
+INFO  10:28:54,674 - #45 Test4
+INFO  10:28:54,674 - #45 int
+INFO  10:28:54,675 - #45 a
+INFO  10:28:54,676 - #34 ;
+INFO  10:28:54,676 - #40 {
+INFO  10:28:54,676 - #12 void
+INFO  10:28:54,677 - #45 main
+INFO  10:28:54,677 - #38 (
+INFO  10:28:54,677 - #39 )
+INFO  10:28:54,677 - #40 {
+INFO  10:28:54,678 - #45 a
+INFO  10:28:54,678 - #27 =
+INFO  10:28:54,678 - #46 5
+INFO  10:28:54,679 - #18 +
+INFO  10:28:54,680 - #34 ;
+ERROR 10:28:54,680 - 
+Sintaksna greska na liniji 7
+INFO  10:28:54,681 - #9 print
+INFO  10:28:54,681 - #38 (
+INFO  10:28:54,681 - #45 a
+ERROR 10:28:54,686 - Oporavak od greske u iskazu dodele do ';' na liniji 7
+INFO  10:28:54,687 - #39 )
+INFO  10:28:54,687 - #34 ;
+INFO  10:28:54,688 - #41 }
+INFO  10:28:54,688 - #41 }
+INFO  10:28:54,692 - Program(
+  ProgName(
+   Test4
+  ) [ProgName]
+  DeclList_var(
+    DeclList_e(
+    ) [DeclList_e]
+    VarDecl_vardecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclElem_var(
+       a
+      ) [VarDeclElem_var]
+      VarDeclList_e(
+      ) [VarDeclList_e]
+    ) [VarDecl_vardecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator_error(
+          ) [Statement_designator_error]
+        ) [StatementList_elem]
+        Statement_print(
+          Expr_regular(
+            ExprNonTernary(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorMore_var(
+                        Designator_id(
+                         a
+                        ) [Designator_id]
+                      ) [FactorMore_var]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprNonTernary]
+          ) [Expr_regular]
+        ) [Statement_print]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  10:28:54,695 - ============== SEMANTICKA ANALIZA ===================
+INFO  10:28:54,709 - Pretraga na (a), nadjeno Var a: int, 0, 0 na liniji 8
+INFO  10:28:54,710 - ==================SINTAKSNA ANALIZA====================
+ERROR 10:28:54,713 - Generisanje NIJE uspesno zavrseno!

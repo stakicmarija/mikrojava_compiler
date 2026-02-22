@@ -1,0 +1,134 @@
+INFO  21:16:24,010 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  21:16:24,042 - #2 program
+INFO  21:16:24,042 - #45 Marija
+INFO  21:16:24,042 - #45 int
+INFO  21:16:24,043 - #45 a
+INFO  21:16:24,043 - #42 [
+INFO  21:16:24,043 - #43 ]
+INFO  21:16:24,043 - #34 ;
+INFO  21:16:24,043 - #6 const
+INFO  21:16:24,044 - #45 int
+INFO  21:16:24,044 - #45 pi
+INFO  21:16:24,044 - #27 =
+INFO  21:16:24,044 - #46 4
+INFO  21:16:24,044 - #34 ;
+INFO  21:16:24,045 - #45 char
+INFO  21:16:24,045 - #45 x
+INFO  21:16:24,045 - #35 ,
+INFO  21:16:24,045 - #45 y
+INFO  21:16:24,045 - #42 [
+INFO  21:16:24,045 - #43 ]
+INFO  21:16:24,046 - #34 ;
+INFO  21:16:24,046 - #6 const
+INFO  21:16:24,046 - #45 bool
+INFO  21:16:24,046 - #45 t
+INFO  21:16:24,046 - #27 =
+INFO  21:16:24,046 - #47 1
+INFO  21:16:24,046 - #34 ;
+INFO  21:16:24,046 - #40 {
+INFO  21:16:24,046 - #12 void
+INFO  21:16:24,046 - #45 main
+INFO  21:16:24,047 - #38 (
+INFO  21:16:24,047 - #39 )
+INFO  21:16:24,047 - #45 int
+INFO  21:16:24,048 - #45 a
+INFO  21:16:24,048 - #34 ;
+INFO  21:16:24,048 - #40 {
+INFO  21:16:24,048 - #41 }
+INFO  21:16:24,048 - #41 }
+INFO  21:16:24,051 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_const(
+    DeclList_var(
+      DeclList_const(
+        DeclList_var(
+          DeclList_e(
+          ) [DeclList_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_arr(
+             a
+            ) [VarDeclElem_arr]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [DeclList_var]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem(
+           pi
+            Constant_num(
+             4
+            ) [Constant_num]
+          ) [ConstDeclElem]
+          ConstDeclList_e(
+          ) [ConstDeclList_e]
+        ) [ConstDecl]
+      ) [DeclList_const]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclElem_var(
+         x
+        ) [VarDeclElem_var]
+        VarDeclList_elem(
+          VarDeclElem_arr(
+           y
+          ) [VarDeclElem_arr]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDeclList_elem]
+      ) [VarDecl]
+    ) [DeclList_var]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclElem(
+       t
+        Constant_bool(
+         1
+        ) [Constant_bool]
+      ) [ConstDeclElem]
+      ConstDeclList_e(
+      ) [ConstDeclList_e]
+    ) [ConstDecl]
+  ) [DeclList_const]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           a
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  21:16:24,056 - Parsiranje uspesno zavrseno!

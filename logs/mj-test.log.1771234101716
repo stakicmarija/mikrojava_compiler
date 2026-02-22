@@ -1,0 +1,49 @@
+INFO  10:27:29,664 - Source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:27:29,709 - #2 program
+INFO  10:27:29,710 - #45 Test1
+INFO  10:27:29,710 - #45 int
+INFO  10:27:29,711 - #45 a
+INFO  10:27:29,712 - #45 b
+ERROR 10:27:29,712 - 
+Sintaksna greska na liniji 3
+INFO  10:27:29,712 - #34 ;
+INFO  10:27:29,712 - #40 {
+INFO  10:27:29,712 - #12 void
+INFO  10:27:29,713 - #45 main
+ERROR 10:27:29,716 - Oporavak od greske u globalnoj deklaraciji do ';' na liniji 3
+INFO  10:27:29,718 - #38 (
+INFO  10:27:29,718 - #39 )
+INFO  10:27:29,719 - #40 {
+INFO  10:27:29,719 - #41 }
+INFO  10:27:29,719 - #41 }
+INFO  10:27:29,722 - Program(
+  ProgName(
+   Test1
+  ) [ProgName]
+  DeclList_var(
+    DeclList_e(
+    ) [DeclList_e]
+    VarDecl_error_semi(
+    ) [VarDecl_error_semi]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  10:27:29,727 - ============== SEMANTICKA ANALIZA ===================
+INFO  10:27:29,730 - ==================SINTAKSNA ANALIZA====================
+ERROR 10:27:29,733 - Generisanje NIJE uspesno zavrseno!

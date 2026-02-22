@@ -1,0 +1,51 @@
+INFO  19:14:18,614 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  19:14:18,653 - #2 program
+INFO  19:14:18,653 - #45 Marija
+INFO  19:14:18,653 - #45 int
+INFO  19:14:18,654 - #45 x
+INFO  19:14:18,654 - #34 ;
+INFO  19:14:18,655 - #40 {
+INFO  19:14:18,655 - #12 void
+INFO  19:14:18,655 - #45 main
+INFO  19:14:18,655 - #38 (
+INFO  19:14:18,656 - #39 )
+INFO  19:14:18,656 - #40 {
+INFO  19:14:18,656 - #41 }
+INFO  19:14:18,656 - #41 }
+INFO  19:14:18,659 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_var(
+    DeclList_e(
+    ) [DeclList_e]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclElem_var(
+       x
+      ) [VarDeclElem_var]
+      VarDeclList_e(
+      ) [VarDeclList_e]
+    ) [VarDecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  19:14:18,665 - Generisanje uspesno zavrseno!

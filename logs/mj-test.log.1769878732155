@@ -1,0 +1,37 @@
+INFO  17:58:16,491 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  17:58:16,515 - #2 program
+INFO  17:58:16,515 - #45 Marija
+INFO  17:58:16,515 - #6 const
+INFO  17:58:16,516 - #45 Marija
+INFO  17:58:16,516 - #45 pi
+INFO  17:58:16,516 - #27 =
+INFO  17:58:16,516 - #46 4
+INFO  17:58:16,516 - #34 ;
+INFO  17:58:16,516 - #40 {
+INFO  17:58:16,517 - #41 }
+INFO  17:58:16,518 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_const(
+    DeclList_e(
+    ) [DeclList_e]
+    ConstDecl(
+      Type(
+       Marija
+      ) [Type]
+      ConstDeclElem(
+       pi
+        Constant_num(
+         4
+        ) [Constant_num]
+      ) [ConstDeclElem]
+      ConstDeclList_e(
+      ) [ConstDeclList_e]
+    ) [ConstDecl]
+  ) [DeclList_const]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+ERROR 17:58:16,520 - Neodgovarajuci tip podatka: Marija na liniji 3
+ERROR 17:58:16,520 - Parsiranje NIJE uspesno zavrseno!

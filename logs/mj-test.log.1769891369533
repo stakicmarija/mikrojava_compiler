@@ -1,0 +1,135 @@
+INFO  21:26:46,467 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  21:26:46,500 - #2 program
+INFO  21:26:46,500 - #45 Marija
+INFO  21:26:46,500 - #45 int
+INFO  21:26:46,501 - #45 a
+INFO  21:26:46,501 - #42 [
+INFO  21:26:46,501 - #43 ]
+INFO  21:26:46,501 - #34 ;
+INFO  21:26:46,502 - #6 const
+INFO  21:26:46,502 - #45 int
+INFO  21:26:46,502 - #45 pi
+INFO  21:26:46,502 - #27 =
+INFO  21:26:46,502 - #46 4
+INFO  21:26:46,502 - #34 ;
+INFO  21:26:46,503 - #45 char
+INFO  21:26:46,503 - #45 x
+INFO  21:26:46,503 - #35 ,
+INFO  21:26:46,503 - #45 y
+INFO  21:26:46,503 - #42 [
+INFO  21:26:46,503 - #43 ]
+INFO  21:26:46,503 - #34 ;
+INFO  21:26:46,504 - #6 const
+INFO  21:26:46,504 - #45 bool
+INFO  21:26:46,504 - #45 t
+INFO  21:26:46,504 - #27 =
+INFO  21:26:46,504 - #47 1
+INFO  21:26:46,504 - #34 ;
+INFO  21:26:46,504 - #40 {
+INFO  21:26:46,504 - #12 void
+INFO  21:26:46,504 - #45 mainn
+INFO  21:26:46,504 - #38 (
+INFO  21:26:46,505 - #39 )
+INFO  21:26:46,505 - #45 int
+INFO  21:26:46,505 - #45 a
+INFO  21:26:46,505 - #34 ;
+INFO  21:26:46,505 - #40 {
+INFO  21:26:46,506 - #41 }
+INFO  21:26:46,506 - #41 }
+INFO  21:26:46,509 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_const(
+    DeclList_var(
+      DeclList_const(
+        DeclList_var(
+          DeclList_e(
+          ) [DeclList_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_arr(
+             a
+            ) [VarDeclElem_arr]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [DeclList_var]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem(
+           pi
+            Constant_num(
+             4
+            ) [Constant_num]
+          ) [ConstDeclElem]
+          ConstDeclList_e(
+          ) [ConstDeclList_e]
+        ) [ConstDecl]
+      ) [DeclList_const]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclElem_var(
+         x
+        ) [VarDeclElem_var]
+        VarDeclList_elem(
+          VarDeclElem_arr(
+           y
+          ) [VarDeclElem_arr]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDeclList_elem]
+      ) [VarDecl]
+    ) [DeclList_var]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclElem(
+       t
+        Constant_bool(
+         1
+        ) [Constant_bool]
+      ) [ConstDeclElem]
+      ConstDeclList_e(
+      ) [ConstDeclList_e]
+    ) [ConstDecl]
+  ) [DeclList_const]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         mainn
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           a
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 21:26:46,513 - Program nema MAIN metodu na liniji 1
+ERROR 21:26:46,513 - Parsiranje NIJE uspesno zavrseno!

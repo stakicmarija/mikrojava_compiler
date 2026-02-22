@@ -1,0 +1,305 @@
+INFO  10:57:15,402 - Source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:57:15,436 - #2 program
+INFO  10:57:15,436 - #45 RecoveryStress
+INFO  10:57:15,436 - #45 int
+INFO  10:57:15,437 - #45 x
+INFO  10:57:15,437 - #45 y
+ERROR 10:57:15,437 - 
+Sintaksna greska na liniji 3
+INFO  10:57:15,438 - #34 ;
+INFO  10:57:15,438 - #45 int
+INFO  10:57:15,438 - #45 a
+INFO  10:57:15,439 - #35 ,
+ERROR 10:57:15,443 - Oporavak od greske u globalnoj deklaraciji do ';' na liniji 3
+INFO  10:57:15,443 - #35 ,
+ERROR 10:57:15,443 - 
+Sintaksna greska na liniji 4
+INFO  10:57:15,443 - #45 b
+INFO  10:57:15,443 - #34 ;
+INFO  10:57:15,444 - #40 {
+INFO  10:57:15,444 - #45 int
+INFO  10:57:15,444 - #45 sum
+ERROR 10:57:15,444 - Oporavak od greske u globalnoj deklaraciji do ';' na liniji 4
+INFO  10:57:15,444 - #38 (
+INFO  10:57:15,445 - #45 int
+INFO  10:57:15,445 - #45 p
+INFO  10:57:15,445 - #35 ,
+INFO  10:57:15,445 - #35 ,
+ERROR 10:57:15,445 - 
+Sintaksna greska na liniji 7
+INFO  10:57:15,445 - #45 int
+INFO  10:57:15,445 - #45 q
+INFO  10:57:15,445 - #39 )
+INFO  10:57:15,446 - #40 {
+INFO  10:57:15,446 - #11 return
+INFO  10:57:15,446 - #45 p
+ERROR 10:57:15,446 - Oporavak od greske u formalnim parametrima
+INFO  10:57:15,447 - #18 +
+INFO  10:57:15,448 - #45 q
+INFO  10:57:15,448 - #34 ;
+INFO  10:57:15,449 - #41 }
+INFO  10:57:15,449 - #12 void
+INFO  10:57:15,449 - #45 main
+INFO  10:57:15,450 - #38 (
+INFO  10:57:15,450 - #39 )
+INFO  10:57:15,450 - #45 int
+INFO  10:57:15,450 - #45 i
+INFO  10:57:15,450 - #34 ;
+INFO  10:57:15,450 - #40 {
+INFO  10:57:15,451 - #45 x
+INFO  10:57:15,451 - #27 =
+INFO  10:57:15,451 - #34 ;
+ERROR 10:57:15,451 - 
+Sintaksna greska na liniji 13
+INFO  10:57:15,451 - #45 a
+INFO  10:57:15,451 - #27 =
+INFO  10:57:15,451 - #46 5
+ERROR 10:57:15,452 - OPORAVAK OD GRESKE u iskazu dodele do ';' na liniji 13
+INFO  10:57:15,452 - #18 +
+INFO  10:57:15,452 - #34 ;
+ERROR 10:57:15,452 - 
+Sintaksna greska na liniji 14
+INFO  10:57:15,453 - #7 if
+INFO  10:57:15,453 - #38 (
+INFO  10:57:15,453 - #45 x
+ERROR 10:57:15,453 - OPORAVAK OD GRESKE u iskazu dodele do ';' na liniji 14
+INFO  10:57:15,453 - #30 >
+INFO  10:57:15,453 - #39 )
+ERROR 10:57:15,453 - 
+Sintaksna greska na liniji 16
+INFO  10:57:15,453 - #9 print
+INFO  10:57:15,454 - #38 (
+INFO  10:57:15,454 - #45 x
+ERROR 10:57:15,454 - OPORAVAK OD GRESKE u IF uslovu do ')' na liniji 11
+INFO  10:57:15,455 - #39 )
+INFO  10:57:15,455 - #34 ;
+INFO  10:57:15,456 - #7 if
+INFO  10:57:15,456 - #38 (
+INFO  10:57:15,456 - #45 x
+INFO  10:57:15,456 - #30 >
+INFO  10:57:15,456 - #46 5
+INFO  10:57:15,457 - #22 &&
+INFO  10:57:15,457 - #39 )
+ERROR 10:57:15,457 - 
+Sintaksna greska na liniji 19
+INFO  10:57:15,457 - #9 print
+INFO  10:57:15,457 - #38 (
+INFO  10:57:15,457 - #45 x
+ERROR 10:57:15,457 - OPORAVAK OD GRESKE u IF uslovu do ')' na liniji 11
+INFO  10:57:15,458 - #39 )
+INFO  10:57:15,458 - #34 ;
+INFO  10:57:15,458 - #14 for
+INFO  10:57:15,458 - #38 (
+INFO  10:57:15,458 - #45 i
+INFO  10:57:15,458 - #27 =
+INFO  10:57:15,458 - #46 0
+INFO  10:57:15,458 - #34 ;
+INFO  10:57:15,458 - #45 i
+INFO  10:57:15,459 - #33 <
+INFO  10:57:15,459 - #34 ;
+ERROR 10:57:15,459 - 
+Sintaksna greska na liniji 22
+INFO  10:57:15,459 - #45 i
+INFO  10:57:15,459 - #19 ++
+INFO  10:57:15,460 - #39 )
+ERROR 10:57:15,460 - OPORAVAK OD GRESKE u iskazu dodele do ';' na liniji 22
+ERROR 10:57:15,460 - 
+Sintaksna greska na liniji 22
+INFO  10:57:15,460 - #40 {
+INFO  10:57:15,460 - #9 print
+INFO  10:57:15,460 - #38 (
+INFO  10:57:15,460 - #45 i
+INFO  10:57:15,460 - #39 )
+INFO  10:57:15,460 - #34 ;
+INFO  10:57:15,464 - #41 }
+INFO  10:57:15,464 - #9 print
+INFO  10:57:15,464 - #38 (
+INFO  10:57:15,464 - #46 10
+INFO  10:57:15,464 - #39 )
+INFO  10:57:15,464 - #34 ;
+INFO  10:57:15,464 - #41 }
+INFO  10:57:15,464 - #41 }
+ERROR 10:57:15,465 - OPORAVAK OD GRESKE u iskazu dodele do ';' na liniji 22
+INFO  10:57:15,469 - Program(
+  ProgName(
+   RecoveryStress
+  ) [ProgName]
+  DeclList_var(
+    DeclList_var(
+      DeclList_e(
+      ) [DeclList_e]
+      VarDecl_error_semi(
+      ) [VarDecl_error_semi]
+    ) [DeclList_var]
+    VarDecl_error_semi(
+    ) [VarDecl_error_semi]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_method(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRet_type(
+          Type(
+           int
+          ) [Type]
+          MethodName(
+           sum
+          ) [MethodName]
+        ) [MethodRet_type]
+        OptFormPars_error(
+        ) [OptFormPars_error]
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ret_expr(
+            Expr_regular(
+              ExprNonTernary(
+                AddopTermList_addop(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_var(
+                            Designator_id(
+                             p
+                            ) [Designator_id]
+                          ) [FactorMore_var]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                  Addop_plus(
+                  ) [Addop_plus]
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorMore_var(
+                          Designator_id(
+                           q
+                          ) [Designator_id]
+                        ) [FactorMore_var]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_addop]
+              ) [ExprNonTernary]
+            ) [Expr_regular]
+          ) [Statement_ret_expr]
+        ) [StatementList_elem]
+      ) [MethodDecl]
+    ) [MethodDeclList_method]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_e(
+        ) [VarDeclListMeth_e]
+        VarDecl_vardecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           i
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl_vardecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_elem(
+            StatementList_elem(
+              StatementList_elem(
+                StatementList_elem(
+                  StatementList_elem(
+                    StatementList_elem(
+                      StatementList_e(
+                      ) [StatementList_e]
+                      Statement_designator_error(
+                      ) [Statement_designator_error]
+                    ) [StatementList_elem]
+                    Statement_designator_error(
+                    ) [Statement_designator_error]
+                  ) [StatementList_elem]
+                  Statement_if_error(
+                  ) [Statement_if_error]
+                ) [StatementList_elem]
+                Statement_print(
+                  Expr_regular(
+                    ExprNonTernary(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              FactorMore_var(
+                                Designator_id(
+                                 x
+                                ) [Designator_id]
+                              ) [FactorMore_var]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprNonTernary]
+                  ) [Expr_regular]
+                ) [Statement_print]
+              ) [StatementList_elem]
+              Statement_if_error(
+              ) [Statement_if_error]
+            ) [StatementList_elem]
+            Statement_print(
+              Expr_regular(
+                ExprNonTernary(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_var(
+                            Designator_id(
+                             x
+                            ) [Designator_id]
+                          ) [FactorMore_var]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprNonTernary]
+              ) [Expr_regular]
+            ) [Statement_print]
+          ) [StatementList_elem]
+          Statement_designator_error(
+          ) [Statement_designator_error]
+        ) [StatementList_elem]
+        Statement_designator_error(
+        ) [Statement_designator_error]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  10:57:15,473 - ============== SEMANTICKA ANALIZA ===================
+ERROR 10:57:15,476 - Semanticka greska: nepoznata promenljiva p na liniji 8
+ERROR 10:57:15,477 - Semanticka greska: nepoznata promenljiva q na liniji 8
+ERROR 10:57:15,477 - Semanticka greska: nevalidni tipovi za addop  na liniji 8
+ERROR 10:57:15,477 - Semanticka greska: nevalidan return tip: sum na liniji 8
+ERROR 10:57:15,477 - Semanticka greska: nepoznata promenljiva x na liniji 17
+ERROR 10:57:15,477 - Semanticka greska: nevalidni tip za print na liniji 17
+ERROR 10:57:15,477 - Semanticka greska: nepoznata promenljiva x na liniji 20
+ERROR 10:57:15,477 - Semanticka greska: nevalidni tip za print na liniji 17
+INFO  10:57:15,477 - ==================SINTAKSNA ANALIZA====================
+ERROR 10:57:15,481 - Generisanje NIJE uspesno zavrseno!

@@ -1,0 +1,227 @@
+INFO  11:48:08,089 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  11:48:08,125 - #2 program
+INFO  11:48:08,125 - #45 Marija
+INFO  11:48:08,125 - #6 const
+INFO  11:48:08,125 - #45 int
+INFO  11:48:08,125 - #45 pi
+INFO  11:48:08,126 - #27 =
+INFO  11:48:08,126 - #46 3
+INFO  11:48:08,126 - #34 ;
+INFO  11:48:08,127 - #45 int
+INFO  11:48:08,127 - #45 x
+INFO  11:48:08,127 - #35 ,
+INFO  11:48:08,127 - #45 y
+INFO  11:48:08,127 - #42 [
+INFO  11:48:08,128 - #43 ]
+INFO  11:48:08,128 - #34 ;
+INFO  11:48:08,128 - #40 {
+INFO  11:48:08,128 - #12 void
+INFO  11:48:08,129 - #45 main
+INFO  11:48:08,129 - #38 (
+INFO  11:48:08,129 - #39 )
+INFO  11:48:08,129 - #45 int
+INFO  11:48:08,130 - #45 a
+INFO  11:48:08,130 - #35 ,
+INFO  11:48:08,130 - #45 b
+INFO  11:48:08,130 - #34 ;
+INFO  11:48:08,130 - #45 char
+INFO  11:48:08,130 - #45 carr
+INFO  11:48:08,130 - #42 [
+INFO  11:48:08,130 - #43 ]
+INFO  11:48:08,130 - #34 ;
+INFO  11:48:08,130 - #40 {
+INFO  11:48:08,130 - #45 carr
+INFO  11:48:08,131 - #27 =
+INFO  11:48:08,131 - #8 new
+INFO  11:48:08,134 - #45 char
+INFO  11:48:08,134 - #42 [
+INFO  11:48:08,134 - #46 2
+INFO  11:48:08,134 - #43 ]
+INFO  11:48:08,136 - #34 ;
+INFO  11:48:08,136 - #9 print
+INFO  11:48:08,136 - #38 (
+INFO  11:48:08,136 - #45 carr
+INFO  11:48:08,136 - #42 [
+INFO  11:48:08,137 - #46 2
+INFO  11:48:08,137 - #43 ]
+INFO  11:48:08,137 - #39 )
+INFO  11:48:08,137 - #34 ;
+INFO  11:48:08,137 - #41 }
+INFO  11:48:08,137 - #41 }
+INFO  11:48:08,141 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_var(
+    DeclList_const(
+      DeclList_e(
+      ) [DeclList_e]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem(
+         pi
+          Constant_num(
+           3
+          ) [Constant_num]
+        ) [ConstDeclElem]
+        ConstDeclList_e(
+        ) [ConstDeclList_e]
+      ) [ConstDecl]
+    ) [DeclList_const]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclElem_var(
+       x
+      ) [VarDeclElem_var]
+      VarDeclList_elem(
+        VarDeclElem_arr(
+         y
+        ) [VarDeclElem_arr]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDeclList_elem]
+    ) [VarDecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_elem(
+          VarDeclListMeth_e(
+          ) [VarDeclListMeth_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             a
+            ) [VarDeclElem_var]
+            VarDeclList_elem(
+              VarDeclElem_var(
+               b
+              ) [VarDeclElem_var]
+              VarDeclList_e(
+              ) [VarDeclList_e]
+            ) [VarDeclList_elem]
+          ) [VarDecl]
+        ) [VarDeclListMeth_elem]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDeclElem_arr(
+           carr
+          ) [VarDeclElem_arr]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_expr(
+              Designator_id(
+               carr
+              ) [Designator_id]
+              Assignop(
+              ) [Assignop]
+              Expr_regular(
+                ExprNonTernary(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_new(
+                            Type(
+                             char
+                            ) [Type]
+                            Expr_regular(
+                              ExprNonTernary(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor(
+                                        Unary_e(
+                                        ) [Unary_e]
+                                        FactorMore_num(
+                                         2
+                                        ) [FactorMore_num]
+                                      ) [Factor]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [ExprNonTernary]
+                            ) [Expr_regular]
+                          ) [FactorMore_new]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprNonTernary]
+              ) [Expr_regular]
+            ) [DesignatorStatement_expr]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_print(
+          Expr_regular(
+            ExprNonTernary(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorMore_var(
+                        Designator_list(
+                          DesignatorList_expr(
+                            DesignatorArrName(
+                             carr
+                            ) [DesignatorArrName]
+                            Expr_regular(
+                              ExprNonTernary(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor(
+                                        Unary_e(
+                                        ) [Unary_e]
+                                        FactorMore_num(
+                                         2
+                                        ) [FactorMore_num]
+                                      ) [Factor]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [ExprNonTernary]
+                            ) [Expr_regular]
+                          ) [DesignatorList_expr]
+                        ) [Designator_list]
+                      ) [FactorMore_var]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprNonTernary]
+          ) [Expr_regular]
+        ) [Statement_print]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  11:48:08,149 - Generisanje uspesno zavrseno!

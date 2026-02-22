@@ -1,0 +1,107 @@
+INFO  10:03:38,055 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:03:38,088 - #2 program
+INFO  10:03:38,088 - #45 Marija
+INFO  10:03:38,088 - #6 const
+INFO  10:03:38,088 - #45 int
+INFO  10:03:38,089 - #45 pi
+INFO  10:03:38,089 - #27 =
+INFO  10:03:38,089 - #46 3
+INFO  10:03:38,089 - #34 ;
+INFO  10:03:38,090 - #45 int
+INFO  10:03:38,090 - #45 x
+INFO  10:03:38,090 - #35 ,
+INFO  10:03:38,090 - #45 y
+INFO  10:03:38,090 - #42 [
+INFO  10:03:38,090 - #43 ]
+INFO  10:03:38,090 - #34 ;
+INFO  10:03:38,091 - #40 {
+INFO  10:03:38,091 - #12 void
+INFO  10:03:38,091 - #45 main
+INFO  10:03:38,092 - #38 (
+INFO  10:03:38,092 - #39 )
+INFO  10:03:38,092 - #40 {
+INFO  10:03:38,092 - #9 print
+INFO  10:03:38,093 - #38 (
+INFO  10:03:38,093 - #46 1
+INFO  10:03:38,093 - #39 )
+INFO  10:03:38,094 - #34 ;
+INFO  10:03:38,094 - #41 }
+INFO  10:03:38,094 - #41 }
+INFO  10:03:38,097 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_var(
+    DeclList_const(
+      DeclList_e(
+      ) [DeclList_e]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem(
+         pi
+          Constant_num(
+           3
+          ) [Constant_num]
+        ) [ConstDeclElem]
+        ConstDeclList_e(
+        ) [ConstDeclList_e]
+      ) [ConstDecl]
+    ) [DeclList_const]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclElem_var(
+       x
+      ) [VarDeclElem_var]
+      VarDeclList_elem(
+        VarDeclElem_arr(
+         y
+        ) [VarDeclElem_arr]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDeclList_elem]
+    ) [VarDecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          Expr_regular(
+            ExprNonTernary(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorMore_num(
+                       1
+                      ) [FactorMore_num]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprNonTernary]
+          ) [Expr_regular]
+        ) [Statement_print]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  10:03:38,105 - Generisanje uspesno zavrseno!

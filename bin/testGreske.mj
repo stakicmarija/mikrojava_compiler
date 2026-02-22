@@ -1,0 +1,76 @@
+program Greske
+
+const int c = 5;
+const int c = 10;          // dvostruka konstanta
+
+int x;
+int x;                     // dvostruka globalna promenljiva
+
+bool b;
+
+enum E { A, B, A }         // dupli element enuma
+
+{
+    int f(int p, int p) {  // dupli parametar
+        int y;
+        int y;             // dupli lokalni
+        return true;       // pogresan return tip
+    }
+
+    void g() {
+        return 5;          // return sa expr u void
+    }
+
+    int h() {
+        int a;
+    }                      // nema return
+
+    void main() {
+
+        int i;
+        int arr[];
+
+        read(c);           // read konstante
+        read(x.length);    // read nad length
+
+        x = true;          // pogresna dodela tipa
+
+        b++;               // inkrement bool
+        x--;               // ok
+        c++;               // inkrement konstante
+
+        if (x) { }         // uslov nije bool
+
+        if (x == b) { }    // relacija nekompatibilnih tipova
+
+        print(arr);        // print nevalidan tip
+
+        break;             // break van petlje
+        continue;          // continue van for
+
+        switch(b) {        // switch nad bool
+            case 1:
+                break;
+            case 1:        // dupli case
+                break;
+        }
+
+        arr = new int[true];  // kreiranje niza sa ne-int
+
+        x = arr[true];        // indeks nije int
+
+        x = unknownVar;       // nedeklarisana promenljiva
+
+        f(1);                 // pogresan broj argumenata
+        f(1, true);           // pogresan tip argumenta
+
+        g() + 1;              // void metoda u izrazu
+
+        x = (true ? 1 : b);   // ternarni nekompatibilni tipovi
+
+        x = -b;               // minus nad bool
+
+        x = 5 + b;            // addop nevalidni tipovi
+        x = 5 * b;            // mulop nevalidni tipovi
+    }
+}

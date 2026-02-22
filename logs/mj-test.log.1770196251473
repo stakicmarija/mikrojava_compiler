@@ -1,0 +1,199 @@
+INFO  10:10:22,853 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:10:22,877 - #2 program
+INFO  10:10:22,877 - #45 Test2
+INFO  10:10:22,877 - #45 int
+INFO  10:10:22,878 - #45 arr
+INFO  10:10:22,878 - #42 [
+INFO  10:10:22,878 - #43 ]
+INFO  10:10:22,878 - #34 ;
+INFO  10:10:22,878 - #6 const
+INFO  10:10:22,879 - #45 char
+INFO  10:10:22,879 - #45 c
+INFO  10:10:22,879 - #27 =
+INFO  10:10:22,879 - #48 c
+INFO  10:10:22,879 - #34 ;
+INFO  10:10:22,879 - #6 const
+INFO  10:10:22,880 - #45 int
+INFO  10:10:22,880 - #45 i
+INFO  10:10:22,880 - #27 =
+INFO  10:10:22,880 - #46 2
+INFO  10:10:22,880 - #34 ;
+INFO  10:10:22,880 - #6 const
+INFO  10:10:22,880 - #45 int
+INFO  10:10:22,880 - #45 n
+INFO  10:10:22,880 - #27 =
+INFO  10:10:22,880 - #46 6
+INFO  10:10:22,880 - #34 ;
+INFO  10:10:22,880 - #45 int
+INFO  10:10:22,880 - #45 x
+INFO  10:10:22,880 - #34 ;
+INFO  10:10:22,880 - #4 enum
+INFO  10:10:22,881 - #45 EN
+INFO  10:10:22,881 - #40 {
+INFO  10:10:22,881 - #45 jedan
+INFO  10:10:22,881 - #35 ,
+INFO  10:10:22,881 - #45 dva
+INFO  10:10:22,881 - #41 }
+INFO  10:10:22,881 - #40 {
+INFO  10:10:22,882 - #12 void
+INFO  10:10:22,882 - #45 main
+INFO  10:10:22,882 - #38 (
+INFO  10:10:22,882 - #39 )
+INFO  10:10:22,883 - #40 {
+INFO  10:10:22,883 - #45 EN
+INFO  10:10:22,883 - #36 .
+INFO  10:10:22,883 - #45 jedan
+INFO  10:10:22,883 - #19 ++
+INFO  10:10:22,883 - #34 ;
+INFO  10:10:22,883 - #45 x
+INFO  10:10:22,884 - #19 ++
+INFO  10:10:22,884 - #34 ;
+INFO  10:10:22,884 - #45 x
+INFO  10:10:22,884 - #21 --
+INFO  10:10:22,884 - #34 ;
+INFO  10:10:22,884 - #41 }
+INFO  10:10:22,884 - #41 }
+INFO  10:10:22,888 - Program(
+  ProgName(
+   Test2
+  ) [ProgName]
+  DeclList_enum(
+    DeclList_var(
+      DeclList_const(
+        DeclList_const(
+          DeclList_const(
+            DeclList_var(
+              DeclList_e(
+              ) [DeclList_e]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclElem_arr(
+                 arr
+                ) [VarDeclElem_arr]
+                VarDeclList_e(
+                ) [VarDeclList_e]
+              ) [VarDecl]
+            ) [DeclList_var]
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+              ConstDeclElem(
+               c
+                Constant_char(
+                 c
+                ) [Constant_char]
+              ) [ConstDeclElem]
+              ConstDeclList_e(
+              ) [ConstDeclList_e]
+            ) [ConstDecl]
+          ) [DeclList_const]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDeclElem(
+             i
+              Constant_num(
+               2
+              ) [Constant_num]
+            ) [ConstDeclElem]
+            ConstDeclList_e(
+            ) [ConstDeclList_e]
+          ) [ConstDecl]
+        ) [DeclList_const]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem(
+           n
+            Constant_num(
+             6
+            ) [Constant_num]
+          ) [ConstDeclElem]
+          ConstDeclList_e(
+          ) [ConstDeclList_e]
+        ) [ConstDecl]
+      ) [DeclList_const]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclElem_var(
+         x
+        ) [VarDeclElem_var]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDecl]
+    ) [DeclList_var]
+    EnumDecl(
+      EnumName(
+       EN
+      ) [EnumName]
+      EnumElem_id(
+       jedan
+      ) [EnumElem_id]
+      EnumList_elem(
+        EnumElem_id(
+         dva
+        ) [EnumElem_id]
+        EnumList_e(
+        ) [EnumList_e]
+      ) [EnumList_elem]
+    ) [EnumDecl]
+  ) [DeclList_enum]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_elem(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_designator(
+              DesignatorStatement_inc(
+                Designator_list(
+                  DesignatorList_id_len(
+                   EN
+                    OptIdLen_id(
+                     jedan
+                    ) [OptIdLen_id]
+                  ) [DesignatorList_id_len]
+                ) [Designator_list]
+              ) [DesignatorStatement_inc]
+            ) [Statement_designator]
+          ) [StatementList_elem]
+          Statement_designator(
+            DesignatorStatement_inc(
+              Designator_id(
+               x
+              ) [Designator_id]
+            ) [DesignatorStatement_inc]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_designator(
+          DesignatorStatement_dec(
+            Designator_id(
+             x
+            ) [Designator_id]
+          ) [DesignatorStatement_dec]
+        ) [Statement_designator]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 10:10:22,892 - Semanticka greska: ne može se inkrementirati (enum)konstanta na liniji 15
+ERROR 10:10:22,893 - Parsiranje NIJE uspesno zavrseno!

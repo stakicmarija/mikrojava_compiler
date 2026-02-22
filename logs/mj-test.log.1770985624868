@@ -1,0 +1,246 @@
+INFO  13:26:40,784 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  13:26:40,812 - #2 program
+INFO  13:26:40,812 - #45 SwitchTest1
+INFO  13:26:40,812 - #40 {
+INFO  13:26:40,813 - #12 void
+INFO  13:26:40,814 - #45 main
+INFO  13:26:40,814 - #38 (
+INFO  13:26:40,815 - #39 )
+INFO  13:26:40,815 - #45 int
+INFO  13:26:40,816 - #45 i
+INFO  13:26:40,816 - #34 ;
+INFO  13:26:40,816 - #45 int
+INFO  13:26:40,816 - #45 j
+INFO  13:26:40,817 - #34 ;
+INFO  13:26:40,817 - #45 int
+INFO  13:26:40,817 - #45 k
+INFO  13:26:40,817 - #34 ;
+INFO  13:26:40,817 - #40 {
+INFO  13:26:40,817 - #45 i
+INFO  13:26:40,817 - #27 =
+INFO  13:26:40,817 - #46 2
+INFO  13:26:40,818 - #34 ;
+INFO  13:26:40,818 - #16 switch
+INFO  13:26:40,819 - #38 (
+INFO  13:26:40,819 - #45 i
+INFO  13:26:40,819 - #39 )
+INFO  13:26:40,819 - #40 {
+INFO  13:26:40,819 - #17 case
+INFO  13:26:40,819 - #46 1
+INFO  13:26:40,819 - #37 :
+INFO  13:26:40,819 - #9 print
+INFO  13:26:40,820 - #38 (
+INFO  13:26:40,820 - #46 10
+INFO  13:26:40,820 - #39 )
+INFO  13:26:40,820 - #34 ;
+INFO  13:26:40,820 - #3 break
+INFO  13:26:40,820 - #34 ;
+INFO  13:26:40,820 - #17 case
+INFO  13:26:40,821 - #46 2
+INFO  13:26:40,821 - #37 :
+INFO  13:26:40,821 - #9 print
+INFO  13:26:40,821 - #38 (
+INFO  13:26:40,821 - #46 20
+INFO  13:26:40,821 - #39 )
+INFO  13:26:40,821 - #34 ;
+INFO  13:26:40,821 - #3 break
+INFO  13:26:40,822 - #34 ;
+INFO  13:26:40,822 - #45 default
+INFO  13:26:40,822 - #37 :
+ERROR 13:26:40,822 - 
+Sintaksna greska na liniji 20
+INFO  13:26:40,822 - #9 print
+INFO  13:26:40,822 - #38 (
+INFO  13:26:40,822 - #46 30
+INFO  13:26:40,822 - #39 )
+INFO  13:26:40,822 - #34 ;
+INFO  13:26:40,822 - #41 }
+INFO  13:26:40,822 - #41 }
+INFO  13:26:40,822 - #41 }
+ERROR 13:26:40,824 - DesignatorStatement OPORAVAK OD GRESKE na liniji: 18
+INFO  13:26:40,828 - Program(
+  ProgName(
+   SwitchTest1
+  ) [ProgName]
+  DeclList_e(
+  ) [DeclList_e]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_elem(
+          VarDeclListMeth_elem(
+            VarDeclListMeth_e(
+            ) [VarDeclListMeth_e]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclElem_var(
+               i
+              ) [VarDeclElem_var]
+              VarDeclList_e(
+              ) [VarDeclList_e]
+            ) [VarDecl]
+          ) [VarDeclListMeth_elem]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             j
+            ) [VarDeclElem_var]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [VarDeclListMeth_elem]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_var(
+           k
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_expr(
+              Designator_id(
+               i
+              ) [Designator_id]
+              Assignop(
+              ) [Assignop]
+              Expr_regular(
+                ExprNonTernary(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_num(
+                           2
+                          ) [FactorMore_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprNonTernary]
+              ) [Expr_regular]
+            ) [DesignatorStatement_expr]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_switch(
+          Switch(
+          ) [Switch]
+          Expr_regular(
+            ExprNonTernary(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorMore_var(
+                        Designator_id(
+                         i
+                        ) [Designator_id]
+                      ) [FactorMore_var]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprNonTernary]
+          ) [Expr_regular]
+          CaseList_list(
+            CaseList_list(
+              CaseList_e(
+              ) [CaseList_e]
+              Case(
+               1
+                StatementList_elem(
+                  StatementList_elem(
+                    StatementList_e(
+                    ) [StatementList_e]
+                    Statement_print(
+                      Expr_regular(
+                        ExprNonTernary(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Unary_e(
+                                  ) [Unary_e]
+                                  FactorMore_num(
+                                   10
+                                  ) [FactorMore_num]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprNonTernary]
+                      ) [Expr_regular]
+                    ) [Statement_print]
+                  ) [StatementList_elem]
+                  Statement_break(
+                  ) [Statement_break]
+                ) [StatementList_elem]
+              ) [Case]
+            ) [CaseList_list]
+            Case(
+             2
+              StatementList_elem(
+                StatementList_elem(
+                  StatementList_elem(
+                    StatementList_e(
+                    ) [StatementList_e]
+                    Statement_print(
+                      Expr_regular(
+                        ExprNonTernary(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Unary_e(
+                                  ) [Unary_e]
+                                  FactorMore_num(
+                                   20
+                                  ) [FactorMore_num]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprNonTernary]
+                      ) [Expr_regular]
+                    ) [Statement_print]
+                  ) [StatementList_elem]
+                  Statement_break(
+                  ) [Statement_break]
+                ) [StatementList_elem]
+                Statement_designator(
+                  DesignatorStatement_error(
+                  ) [DesignatorStatement_error]
+                ) [Statement_designator]
+              ) [StatementList_elem]
+            ) [Case]
+          ) [CaseList_list]
+        ) [Statement_switch]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 13:26:40,833 - Generisanje NIJE uspesno zavrseno!

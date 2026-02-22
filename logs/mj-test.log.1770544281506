@@ -1,0 +1,146 @@
+INFO  10:34:49,454 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  10:34:49,476 - #2 program
+INFO  10:34:49,476 - #45 Marija
+INFO  10:34:49,476 - #6 const
+INFO  10:34:49,477 - #45 int
+INFO  10:34:49,477 - #45 pi
+INFO  10:34:49,478 - #27 =
+INFO  10:34:49,478 - #46 3
+INFO  10:34:49,478 - #34 ;
+INFO  10:34:49,479 - #45 int
+INFO  10:34:49,480 - #45 x
+INFO  10:34:49,480 - #35 ,
+INFO  10:34:49,480 - #45 y
+INFO  10:34:49,480 - #42 [
+INFO  10:34:49,481 - #43 ]
+INFO  10:34:49,481 - #34 ;
+INFO  10:34:49,481 - #40 {
+INFO  10:34:49,482 - #12 void
+INFO  10:34:49,482 - #45 main
+INFO  10:34:49,482 - #38 (
+INFO  10:34:49,483 - #39 )
+INFO  10:34:49,483 - #45 int
+INFO  10:34:49,484 - #45 a
+INFO  10:34:49,484 - #35 ,
+INFO  10:34:49,484 - #45 b
+INFO  10:34:49,484 - #34 ;
+INFO  10:34:49,484 - #45 char
+INFO  10:34:49,484 - #45 carr
+INFO  10:34:49,484 - #42 [
+INFO  10:34:49,484 - #43 ]
+INFO  10:34:49,484 - #34 ;
+INFO  10:34:49,484 - #40 {
+INFO  10:34:49,484 - #9 print
+INFO  10:34:49,485 - #38 (
+INFO  10:34:49,485 - #46 1
+INFO  10:34:49,485 - #39 )
+INFO  10:34:49,486 - #34 ;
+INFO  10:34:49,486 - #41 }
+INFO  10:34:49,486 - #41 }
+INFO  10:34:49,489 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_var(
+    DeclList_const(
+      DeclList_e(
+      ) [DeclList_e]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem(
+         pi
+          Constant_num(
+           3
+          ) [Constant_num]
+        ) [ConstDeclElem]
+        ConstDeclList_e(
+        ) [ConstDeclList_e]
+      ) [ConstDecl]
+    ) [DeclList_const]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclElem_var(
+       x
+      ) [VarDeclElem_var]
+      VarDeclList_elem(
+        VarDeclElem_arr(
+         y
+        ) [VarDeclElem_arr]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDeclList_elem]
+    ) [VarDecl]
+  ) [DeclList_var]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_elem(
+          VarDeclListMeth_e(
+          ) [VarDeclListMeth_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             a
+            ) [VarDeclElem_var]
+            VarDeclList_elem(
+              VarDeclElem_var(
+               b
+              ) [VarDeclElem_var]
+              VarDeclList_e(
+              ) [VarDeclList_e]
+            ) [VarDeclList_elem]
+          ) [VarDecl]
+        ) [VarDeclListMeth_elem]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDeclElem_arr(
+           carr
+          ) [VarDeclElem_arr]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_elem(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          Expr_regular(
+            ExprNonTernary(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorMore_num(
+                       1
+                      ) [FactorMore_num]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprNonTernary]
+          ) [Expr_regular]
+        ) [Statement_print]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  10:34:49,497 - Generisanje uspesno zavrseno!

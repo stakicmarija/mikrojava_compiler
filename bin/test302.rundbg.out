@@ -1,0 +1,1480 @@
+
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+   66: enter       0 0 
+     | 
+   69: const_1     
+     | 1 
+   70: const_1     
+     | 1 1 
+   71: jeq         6 
+     | 
+   77: jmp         14 
+     | 
+   91: const_0     
+     | 0 
+   92: const_0     
+     | 0 0 
+   93: print       0
+     | 
+   94: const_0     
+     | 0 
+   95: putstatic   1 
+     | 
+   98: const_0     
+     | 0 
+   99: putstatic   0 
+     | 
+  102: const_0     
+     | 0 
+  103: putstatic   0 
+     | 
+  106: getstatic   0 
+     | 0 
+  109: const_5     
+     | 0 5 
+  110: jge         6 
+     | 
+  113: jmp         6 
+     | 
+  119: jmp         14 
+     | 
+  133: getstatic   0 
+     | 0 
+  136: const_2     
+     | 0 2 
+  137: jne         6 
+     | 
+  143: jmp         7 
+     | 
+  150: jmp         -28 
+     | 
+  122: getstatic   0 
+     | 0 
+  125: const_1     
+     | 0 1 
+  126: add         
+     | 1 
+  127: putstatic   0 
+     | 
+  130: jmp         -24 
+     | 
+  106: getstatic   0 
+     | 1 
+  109: const_5     
+     | 1 5 
+  110: jge         6 
+     | 
+  113: jmp         6 
+     | 
+  119: jmp         14 
+     | 
+  133: getstatic   0 
+     | 1 
+  136: const_2     
+     | 1 2 
+  137: jne         6 
+     | 
+  143: jmp         7 
+     | 
+  150: jmp         -28 
+     | 
+  122: getstatic   0 
+     | 1 
+  125: const_1     
+     | 1 1 
+  126: add         
+     | 2 
+  127: putstatic   0 
+     | 
+  130: jmp         -24 
+     | 
+  106: getstatic   0 
+     | 2 
+  109: const_5     
+     | 2 5 
+  110: jge         6 
+     | 
+  113: jmp         6 
+     | 
+  119: jmp         14 
+     | 
+  133: getstatic   0 
+     | 2 
+  136: const_2     
+     | 2 2 
+  137: jne         6 
+     | 
+  140: jmp         6 
+     | 
+  146: const_1     
+     | 1 
+  147: putstatic   1 
+     | 
+  150: jmp         -28 
+     | 
+  122: getstatic   0 
+     | 2 
+  125: const_1     
+     | 2 1 
+  126: add         
+     | 3 
+  127: putstatic   0 
+     | 
+  130: jmp         -24 
+     | 
+  106: getstatic   0 
+     | 3 
+  109: const_5     
+     | 3 5 
+  110: jge         6 
+     | 
+  113: jmp         6 
+     | 
+  119: jmp         14 
+     | 
+  133: getstatic   0 
+     | 3 
+  136: const_2     
+     | 3 2 
+  137: jne         6 
+     | 
+  143: jmp         7 
+     | 
+  150: jmp         -28 
+     | 
+  122: getstatic   0 
+     | 3 
+  125: const_1     
+     | 3 1 
+  126: add         
+     | 4 
+  127: putstatic   0 
+     | 
+  130: jmp         -24 
+     | 
+  106: getstatic   0 
+     | 4 
+  109: const_5     
+     | 4 5 
+  110: jge         6 
+     | 
+  113: jmp         6 
+     | 
+  119: jmp         14 
+     | 
+  133: getstatic   0 
+     | 4 
+  136: const_2     
+     | 4 2 
+  137: jne         6 
+     | 
+  143: jmp         7 
+     | 
+  150: jmp         -28 
+     | 
+  122: getstatic   0 
+     | 4 
+  125: const_1     
+     | 4 1 
+  126: add         
+     | 5 
+  127: putstatic   0 
+     | 
+  130: jmp         -24 
+     | 
+  106: getstatic   0 
+     | 5 
+  109: const_5     
+     | 5 5 
+  110: jge         6 
+     | 
+  116: jmp         37 
+     | 
+  153: getstatic   1 
+     | 1 
+  156: const_1     
+     | 1 1 
+  157: jne         6 
+     | 
+  160: jmp         6 
+     | 
+  166: getstatic   0 
+     | 5 
+  169: const_5     
+     | 5 5 
+  170: jne         6 
+     | 
+  173: jmp         6 
+     | 
+  179: const_1     
+     | 1 
+  180: const_0     
+     | 1 0 
+  181: print       1
+     | 
+  182: jmp         7 
+     | 
+  189: const_3     
+     | 3 
+  190: newarray    1 
+     | 2 
+  192: putstatic   2 
+     | 
+  195: getstatic   2 
+     | 2 
+  198: const_0     
+     | 2 0 
+  199: const_1     
+     | 2 0 1 
+  200: astore      
+Arraylength = 3
+Address = 2
+Index = 0
+Value = 1
+
+     | 
+  201: getstatic   2 
+     | 2 
+  204: const_1     
+     | 2 1 
+  205: const_2     
+     | 2 1 2 
+  206: astore      
+Arraylength = 3
+Address = 2
+Index = 1
+Value = 2
+
+     | 
+  207: getstatic   2 
+     | 2 
+  210: const_2     
+     | 2 2 
+  211: getstatic   2 
+     | 2 2 2 
+  214: const_1     
+     | 2 2 2 1 
+  215: aload       
+     | 2 2 2 
+  216: getstatic   2 
+     | 2 2 2 2 
+  219: const_0     
+     | 2 2 2 2 0 
+  220: aload       
+     | 2 2 2 1 
+  221: call        -221 
+     | 2 2 2 1 
+    0: enter       2 2 
+     | 2 2 
+    3: load_0      
+     | 2 2 2 
+    4: load_1      
+     | 2 2 2 1 
+    5: add         
+     | 2 2 3 
+    6: exit        
+     | 2 2 3 
+    7: return      
+     | 2 2 3 
+  224: const_1     
+     | 2 2 3 1 
+  225: add         
+     | 2 2 4 
+  226: astore      
+Arraylength = 3
+Address = 2
+Index = 2
+Value = 4
+
+     | 
+  227: getstatic   2 
+     | 2 
+  230: const_2     
+     | 2 2 
+  231: aload       
+     | 4 
+  232: const_4     
+     | 4 4 
+  233: jne         6 
+     | 
+  236: jmp         16 
+     | 
+  252: const       65 
+     | 65 
+  257: const_0     
+     | 65 0 
+  258: print       65
+     | 
+  259: jmp         10 
+     | 
+  269: const       10 
+     | 10 
+  274: const_0     
+     | 10 0 
+  275: bprint      
+
+     | 
+  276: const_0     
+     | 0 
+  277: putstatic   0 
+     | 
+  280: getstatic   0 
+     | 0 
+  283: const       10 
+     | 0 10 
+  288: jge         6 
+     | 
+  291: jmp         6 
+     | 
+  297: jmp         6 
+     | 
+  303: getstatic   0 
+     | 0 
+  306: const_3     
+     | 0 3 
+  307: jne         6 
+     | 
+  313: jmp         14 
+     | 
+  327: getstatic   0 
+     | 0 
+  330: const_4     
+     | 0 4 
+  331: jne         6 
+     | 
+  337: jmp         6 
+     | 
+  343: getstatic   0 
+     | 0 
+  346: const_1     
+     | 0 1 
+  347: call        -337 
+     | 0 1 
+   10: enter       2 3 
+     | 
+   13: load_1      
+     | 1 
+   14: const_1     
+     | 1 1 
+   15: jne         6 
+     | 
+   18: jmp         6 
+     | 
+   24: const_1     
+     | 1 
+   25: store_2     
+     | 
+   26: jmp         16 
+     | 
+   42: load_0      
+     | 0 
+   43: load_2      
+     | 0 1 
+   44: call        -44 
+     | 0 1 
+    0: enter       2 2 
+     | 
+    3: load_0      
+     | 0 
+    4: load_1      
+     | 0 1 
+    5: add         
+     | 1 
+    6: exit        
+     | 1 
+    7: return      
+     | 1 
+   47: exit        
+     | 1 
+   48: return      
+     | 1 
+  350: putstatic   0 
+     | 
+  353: jmp         -53 
+     | 
+  300: jmp         -20 
+     | 
+  280: getstatic   0 
+     | 1 
+  283: const       10 
+     | 1 10 
+  288: jge         6 
+     | 
+  291: jmp         6 
+     | 
+  297: jmp         6 
+     | 
+  303: getstatic   0 
+     | 1 
+  306: const_3     
+     | 1 3 
+  307: jne         6 
+     | 
+  313: jmp         14 
+     | 
+  327: getstatic   0 
+     | 1 
+  330: const_4     
+     | 1 4 
+  331: jne         6 
+     | 
+  337: jmp         6 
+     | 
+  343: getstatic   0 
+     | 1 
+  346: const_1     
+     | 1 1 
+  347: call        -337 
+     | 1 1 
+   10: enter       2 3 
+     | 
+   13: load_1      
+     | 1 
+   14: const_1     
+     | 1 1 
+   15: jne         6 
+     | 
+   18: jmp         6 
+     | 
+   24: const_1     
+     | 1 
+   25: store_2     
+     | 
+   26: jmp         16 
+     | 
+   42: load_0      
+     | 1 
+   43: load_2      
+     | 1 1 
+   44: call        -44 
+     | 1 1 
+    0: enter       2 2 
+     | 
+    3: load_0      
+     | 1 
+    4: load_1      
+     | 1 1 
+    5: add         
+     | 2 
+    6: exit        
+     | 2 
+    7: return      
+     | 2 
+   47: exit        
+     | 2 
+   48: return      
+     | 2 
+  350: putstatic   0 
+     | 
+  353: jmp         -53 
+     | 
+  300: jmp         -20 
+     | 
+  280: getstatic   0 
+     | 2 
+  283: const       10 
+     | 2 10 
+  288: jge         6 
+     | 
+  291: jmp         6 
+     | 
+  297: jmp         6 
+     | 
+  303: getstatic   0 
+     | 2 
+  306: const_3     
+     | 2 3 
+  307: jne         6 
+     | 
+  313: jmp         14 
+     | 
+  327: getstatic   0 
+     | 2 
+  330: const_4     
+     | 2 4 
+  331: jne         6 
+     | 
+  337: jmp         6 
+     | 
+  343: getstatic   0 
+     | 2 
+  346: const_1     
+     | 2 1 
+  347: call        -337 
+     | 2 1 
+   10: enter       2 3 
+     | 
+   13: load_1      
+     | 1 
+   14: const_1     
+     | 1 1 
+   15: jne         6 
+     | 
+   18: jmp         6 
+     | 
+   24: const_1     
+     | 1 
+   25: store_2     
+     | 
+   26: jmp         16 
+     | 
+   42: load_0      
+     | 2 
+   43: load_2      
+     | 2 1 
+   44: call        -44 
+     | 2 1 
+    0: enter       2 2 
+     | 
+    3: load_0      
+     | 2 
+    4: load_1      
+     | 2 1 
+    5: add         
+     | 3 
+    6: exit        
+     | 3 
+    7: return      
+     | 3 
+   47: exit        
+     | 3 
+   48: return      
+     | 3 
+  350: putstatic   0 
+     | 
+  353: jmp         -53 
+     | 
+  300: jmp         -20 
+     | 
+  280: getstatic   0 
+     | 3 
+  283: const       10 
+     | 3 10 
+  288: jge         6 
+     | 
+  291: jmp         6 
+     | 
+  297: jmp         6 
+     | 
+  303: getstatic   0 
+     | 3 
+  306: const_3     
+     | 3 3 
+  307: jne         6 
+     | 
+  310: jmp         6 
+     | 
+  316: getstatic   0 
+     | 3 
+  319: const_1     
+     | 3 1 
+  320: add         
+     | 4 
+  321: putstatic   0 
+     | 
+  324: jmp         -24 
+     | 
+  300: jmp         -20 
+     | 
+  280: getstatic   0 
+     | 4 
+  283: const       10 
+     | 4 10 
+  288: jge         6 
+     | 
+  291: jmp         6 
+     | 
+  297: jmp         6 
+     | 
+  303: getstatic   0 
+     | 4 
+  306: const_3     
+     | 4 3 
+  307: jne         6 
+     | 
+  313: jmp         14 
+     | 
+  327: getstatic   0 
+     | 4 
+  330: const_4     
+     | 4 4 
+  331: jne         6 
+     | 
+  334: jmp         6 
+     | 
+  340: jmp         16 
+     | 
+  356: getstatic   0 
+     | 4 
+  359: const_3     
+     | 4 3 
+  360: jne         13 
+     | 
+  373: jmp         9 
+     | 
+  382: const_4     
+     | 4 
+  383: neg         
+     | -4 
+  384: const_0     
+     | -4 0 
+  385: print       -4
+     | 
+  386: getstatic   2 
+     | 2 
+  389: const_0     
+     | 2 0 
+  390: read        
+     | 2 0 1 
+  391: astore      
+Arraylength = 3
+Address = 2
+Index = 0
+Value = 1
+
+     | 
+  392: getstatic   2 
+     | 2 
+  395: const_1     
+     | 2 1 
+  396: read        
+     | 2 1 2 
+  397: astore      
+Arraylength = 3
+Address = 2
+Index = 1
+Value = 2
+
+     | 
+  398: getstatic   2 
+     | 2 
+  401: const_2     
+     | 2 2 
+  402: read        
+     | 2 2 3 
+  403: astore      
+Arraylength = 3
+Address = 2
+Index = 2
+Value = 3
+
+     | 
+  404: const       10 
+     | 10 
+  409: const_0     
+     | 10 0 
+  410: bprint      
+
+     | 
+  411: getstatic   2 
+     | 2 
+  414: const_0     
+     | 2 0 
+  415: aload       
+     | 1 
+  416: getstatic   2 
+     | 1 2 
+  419: const_1     
+     | 1 2 1 
+  420: aload       
+     | 1 2 
+  421: call        -421 
+     | 1 2 
+    0: enter       2 2 
+     | 
+    3: load_0      
+     | 1 
+    4: load_1      
+     | 1 2 
+    5: add         
+     | 3 
+    6: exit        
+     | 3 
+    7: return      
+     | 3 
+  424: getstatic   2 
+     | 3 2 
+  427: const_2     
+     | 3 2 2 
+  428: aload       
+     | 3 3 
+  429: call        -429 
+     | 3 3 
+    0: enter       2 2 
+     | 
+    3: load_0      
+     | 3 
+    4: load_1      
+     | 3 3 
+    5: add         
+     | 6 
+    6: exit        
+     | 6 
+    7: return      
+     | 6 
+  432: const_0     
+     | 6 0 
+  433: print       6
+     | 
+  434: const_0     
+     | 0 
+  435: putstatic   0 
+     | 
+  438: getstatic   0 
+     | 0 
+  441: getstatic   2 
+     | 0 2 
+  444: arraylength 
+     | 0 3 
+  445: jge         6 
+     | 
+  448: jmp         6 
+     | 
+  454: jmp         14 
+     | 
+  468: getstatic   0 
+     | 0 
+  471: const_0     
+     | 0 0 
+  472: print       0
+     | 
+  473: jmp         -16 
+     | 
+  457: getstatic   0 
+     | 0 
+  460: const_1     
+     | 0 1 
+  461: add         
+     | 1 
+  462: putstatic   0 
+     | 
+  465: jmp         -27 
+     | 
+  438: getstatic   0 
+     | 1 
+  441: getstatic   2 
+     | 1 2 
+  444: arraylength 
+     | 1 3 
+  445: jge         6 
+     | 
+  448: jmp         6 
+     | 
+  454: jmp         14 
+     | 
+  468: getstatic   0 
+     | 1 
+  471: const_0     
+     | 1 0 
+  472: print       1
+     | 
+  473: jmp         -16 
+     | 
+  457: getstatic   0 
+     | 1 
+  460: const_1     
+     | 1 1 
+  461: add         
+     | 2 
+  462: putstatic   0 
+     | 
+  465: jmp         -27 
+     | 
+  438: getstatic   0 
+     | 2 
+  441: getstatic   2 
+     | 2 2 
+  444: arraylength 
+     | 2 3 
+  445: jge         6 
+     | 
+  448: jmp         6 
+     | 
+  454: jmp         14 
+     | 
+  468: getstatic   0 
+     | 2 
+  471: const_0     
+     | 2 0 
+  472: print       2
+     | 
+  473: jmp         -16 
+     | 
+  457: getstatic   0 
+     | 2 
+  460: const_1     
+     | 2 1 
+  461: add         
+     | 3 
+  462: putstatic   0 
+     | 
+  465: jmp         -27 
+     | 
+  438: getstatic   0 
+     | 3 
+  441: getstatic   2 
+     | 3 2 
+  444: arraylength 
+     | 3 3 
+  445: jge         6 
+     | 
+  451: jmp         25 
+     | 
+  476: const       10 
+     | 10 
+  481: const_0     
+     | 10 0 
+  482: bprint      
+
+     | 
+  483: getstatic   2 
+     | 2 
+  486: const_2     
+     | 2 2 
+  487: aload       
+     | 3 
+  488: const_2     
+     | 3 2 
+  489: call        -479 
+     | 3 2 
+   10: enter       2 3 
+     | 
+   13: load_1      
+     | 2 
+   14: const_1     
+     | 2 1 
+   15: jne         6 
+     | 
+   21: jmp         8 
+     | 
+   29: load_1      
+     | 2 
+   30: const_2     
+     | 2 2 
+   31: jne         6 
+     | 
+   34: jmp         6 
+     | 
+   40: load_0      
+     | 3 
+   41: store_2     
+     | 
+   42: load_0      
+     | 3 
+   43: load_2      
+     | 3 3 
+   44: call        -44 
+     | 3 3 
+    0: enter       2 2 
+     | 
+    3: load_0      
+     | 3 
+    4: load_1      
+     | 3 3 
+    5: add         
+     | 6 
+    6: exit        
+     | 6 
+    7: return      
+     | 6 
+   47: exit        
+     | 6 
+   48: return      
+     | 6 
+  492: const_0     
+     | 6 0 
+  493: print       6
+     | 
+  494: call        -443 
+     | 
+   51: enter       0 0 
+     | 
+   54: const       118 
+     | 118 
+   59: const_0     
+     | 118 0 
+   60: bprint      v
+     | 
+   61: const_0     
+     | 0 
+   62: exit        
+     | 0 
+   63: return      
+     | 0 
+  497: const_1     
+     | 0 1 
+  498: jne         6 
+     | 
+  504: jmp         11 
+     | 
+  515: const       102 
+     | 102 
+  520: const_0     
+     | 102 0 
+  521: bprint      f
+     | 
+  522: const_0     
+     | 0 
+  523: putstatic   0 
+     | 
+  526: getstatic   0 
+     | 0 
+  529: const       10 
+     | 0 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 0 
+  560: const_1     
+     | 0 1 
+  561: add         
+     | 1 
+  562: dup         
+     | 1 1 
+  563: const_1     
+     | 1 1 1 
+  564: jne         12 
+     | 1 
+  567: const_1     
+     | 1 1 
+  568: const_0     
+     | 1 1 0 
+  569: print       1
+     | 1 
+  570: jmp         92 
+     | 1 
+  662: pop         
+     | 
+  663: const       10 
+     | 10 
+  668: const_0     
+     | 10 0 
+  669: bprint      
+
+     | 
+  670: jmp         -124 
+     | 
+  546: getstatic   0 
+     | 0 
+  549: const_1     
+     | 0 1 
+  550: add         
+     | 1 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 1 
+  529: const       10 
+     | 1 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 1 
+  560: const_1     
+     | 1 1 
+  561: add         
+     | 2 
+  562: dup         
+     | 2 2 
+  563: const_1     
+     | 2 2 1 
+  564: jne         12 
+     | 2 
+  576: dup         
+     | 2 2 
+  577: const_3     
+     | 2 2 3 
+  578: jne         9 
+     | 2 
+  587: dup         
+     | 2 2 
+  588: const_2     
+     | 2 2 2 
+  589: jne         12 
+     | 2 
+  592: const_2     
+     | 2 2 
+  593: const_0     
+     | 2 2 0 
+  594: print       2
+     | 2 
+  595: jmp         67 
+     | 2 
+  662: pop         
+     | 
+  663: const       10 
+     | 10 
+  668: const_0     
+     | 10 0 
+  669: bprint      
+
+     | 
+  670: jmp         -124 
+     | 
+  546: getstatic   0 
+     | 1 
+  549: const_1     
+     | 1 1 
+  550: add         
+     | 2 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 2 
+  529: const       10 
+     | 2 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 2 
+  560: const_1     
+     | 2 1 
+  561: add         
+     | 3 
+  562: dup         
+     | 3 3 
+  563: const_1     
+     | 3 3 1 
+  564: jne         12 
+     | 3 
+  576: dup         
+     | 3 3 
+  577: const_3     
+     | 3 3 3 
+  578: jne         9 
+     | 3 
+  581: const_3     
+     | 3 3 
+  582: const_0     
+     | 3 3 0 
+  583: print       3
+     | 3 
+  584: jmp         8 
+     | 3 
+  592: const_2     
+     | 3 2 
+  593: const_0     
+     | 3 2 0 
+  594: print       2
+     | 3 
+  595: jmp         67 
+     | 3 
+  662: pop         
+     | 
+  663: const       10 
+     | 10 
+  668: const_0     
+     | 10 0 
+  669: bprint      
+
+     | 
+  670: jmp         -124 
+     | 
+  546: getstatic   0 
+     | 2 
+  549: const_1     
+     | 2 1 
+  550: add         
+     | 3 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 3 
+  529: const       10 
+     | 3 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 3 
+  560: const_1     
+     | 3 1 
+  561: add         
+     | 4 
+  562: dup         
+     | 4 4 
+  563: const_1     
+     | 4 4 1 
+  564: jne         12 
+     | 4 
+  576: dup         
+     | 4 4 
+  577: const_3     
+     | 4 4 3 
+  578: jne         9 
+     | 4 
+  587: dup         
+     | 4 4 
+  588: const_2     
+     | 4 4 2 
+  589: jne         12 
+     | 4 
+  601: dup         
+     | 4 4 
+  602: const_5     
+     | 4 4 5 
+  603: jne         21 
+     | 4 
+  624: dup         
+     | 4 4 
+  625: const       6 
+     | 4 4 6 
+  630: jne         13 
+     | 4 
+  643: dup         
+     | 4 4 
+  644: const       9 
+     | 4 4 9 
+  649: jne         13 
+     | 4 
+  662: pop         
+     | 
+  663: const       10 
+     | 10 
+  668: const_0     
+     | 10 0 
+  669: bprint      
+
+     | 
+  670: jmp         -124 
+     | 
+  546: getstatic   0 
+     | 3 
+  549: const_1     
+     | 3 1 
+  550: add         
+     | 4 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 4 
+  529: const       10 
+     | 4 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 4 
+  560: const_1     
+     | 4 1 
+  561: add         
+     | 5 
+  562: dup         
+     | 5 5 
+  563: const_1     
+     | 5 5 1 
+  564: jne         12 
+     | 5 
+  576: dup         
+     | 5 5 
+  577: const_3     
+     | 5 5 3 
+  578: jne         9 
+     | 5 
+  587: dup         
+     | 5 5 
+  588: const_2     
+     | 5 5 2 
+  589: jne         12 
+     | 5 
+  601: dup         
+     | 5 5 
+  602: const_5     
+     | 5 5 5 
+  603: jne         21 
+     | 5 
+  606: const_5     
+     | 5 5 
+  607: const_0     
+     | 5 5 0 
+  608: print       5
+     | 5 
+  609: getstatic   0 
+     | 5 4 
+  612: const_2     
+     | 5 4 2 
+  613: add         
+     | 5 6 
+  614: putstatic   0 
+     | 5 
+  617: pop         
+     | 
+  618: jmp         -72 
+     | 
+  546: getstatic   0 
+     | 6 
+  549: const_1     
+     | 6 1 
+  550: add         
+     | 7 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 7 
+  529: const       10 
+     | 7 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 7 
+  560: const_1     
+     | 7 1 
+  561: add         
+     | 8 
+  562: dup         
+     | 8 8 
+  563: const_1     
+     | 8 8 1 
+  564: jne         12 
+     | 8 
+  576: dup         
+     | 8 8 
+  577: const_3     
+     | 8 8 3 
+  578: jne         9 
+     | 8 
+  587: dup         
+     | 8 8 
+  588: const_2     
+     | 8 8 2 
+  589: jne         12 
+     | 8 
+  601: dup         
+     | 8 8 
+  602: const_5     
+     | 8 8 5 
+  603: jne         21 
+     | 8 
+  624: dup         
+     | 8 8 
+  625: const       6 
+     | 8 8 6 
+  630: jne         13 
+     | 8 
+  643: dup         
+     | 8 8 
+  644: const       9 
+     | 8 8 9 
+  649: jne         13 
+     | 8 
+  662: pop         
+     | 
+  663: const       10 
+     | 10 
+  668: const_0     
+     | 10 0 
+  669: bprint      
+
+     | 
+  670: jmp         -124 
+     | 
+  546: getstatic   0 
+     | 7 
+  549: const_1     
+     | 7 1 
+  550: add         
+     | 8 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 8 
+  529: const       10 
+     | 8 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 8 
+  560: const_1     
+     | 8 1 
+  561: add         
+     | 9 
+  562: dup         
+     | 9 9 
+  563: const_1     
+     | 9 9 1 
+  564: jne         12 
+     | 9 
+  576: dup         
+     | 9 9 
+  577: const_3     
+     | 9 9 3 
+  578: jne         9 
+     | 9 
+  587: dup         
+     | 9 9 
+  588: const_2     
+     | 9 9 2 
+  589: jne         12 
+     | 9 
+  601: dup         
+     | 9 9 
+  602: const_5     
+     | 9 9 5 
+  603: jne         21 
+     | 9 
+  624: dup         
+     | 9 9 
+  625: const       6 
+     | 9 9 6 
+  630: jne         13 
+     | 9 
+  643: dup         
+     | 9 9 
+  644: const       9 
+     | 9 9 9 
+  649: jne         13 
+     | 9 
+  652: const       9 
+     | 9 9 
+  657: const_0     
+     | 9 9 0 
+  658: print       9
+     | 9 
+  659: jmp         3 
+     | 9 
+  662: pop         
+     | 
+  663: const       10 
+     | 10 
+  668: const_0     
+     | 10 0 
+  669: bprint      
+
+     | 
+  670: jmp         -124 
+     | 
+  546: getstatic   0 
+     | 8 
+  549: const_1     
+     | 8 1 
+  550: add         
+     | 9 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 9 
+  529: const       10 
+     | 9 10 
+  534: jge         6 
+     | 
+  537: jmp         6 
+     | 
+  543: jmp         14 
+     | 
+  557: getstatic   0 
+     | 9 
+  560: const_1     
+     | 9 1 
+  561: add         
+     | 10 
+  562: dup         
+     | 10 10 
+  563: const_1     
+     | 10 10 1 
+  564: jne         12 
+     | 10 
+  576: dup         
+     | 10 10 
+  577: const_3     
+     | 10 10 3 
+  578: jne         9 
+     | 10 
+  587: dup         
+     | 10 10 
+  588: const_2     
+     | 10 10 2 
+  589: jne         12 
+     | 10 
+  601: dup         
+     | 10 10 
+  602: const_5     
+     | 10 10 5 
+  603: jne         21 
+     | 10 
+  624: dup         
+     | 10 10 
+  625: const       6 
+     | 10 10 6 
+  630: jne         13 
+     | 10 
+  643: dup         
+     | 10 10 
+  644: const       9 
+     | 10 10 9 
+  649: jne         13 
+     | 10 
+  662: pop         
+     | 
+  663: const       10 
+     | 10 
+  668: const_0     
+     | 10 0 
+  669: bprint      
+
+     | 
+  670: jmp         -124 
+     | 
+  546: getstatic   0 
+     | 9 
+  549: const_1     
+     | 9 1 
+  550: add         
+     | 10 
+  551: putstatic   0 
+     | 
+  554: jmp         -28 
+     | 
+  526: getstatic   0 
+     | 10 
+  529: const       10 
+     | 10 10 
+  534: jge         6 
+     | 
+  540: jmp         133 
+     | 
+  673: exit        
+     | 
+  674: return      
+Completion took 51 ms

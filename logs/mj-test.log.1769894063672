@@ -1,0 +1,258 @@
+INFO  22:13:41,371 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  22:13:41,406 - #2 program
+INFO  22:13:41,407 - #45 Marija
+INFO  22:13:41,407 - #45 int
+INFO  22:13:41,408 - #45 a
+INFO  22:13:41,408 - #42 [
+INFO  22:13:41,408 - #43 ]
+INFO  22:13:41,408 - #34 ;
+INFO  22:13:41,408 - #6 const
+INFO  22:13:41,409 - #45 int
+INFO  22:13:41,409 - #45 pi
+INFO  22:13:41,409 - #27 =
+INFO  22:13:41,409 - #46 4
+INFO  22:13:41,409 - #34 ;
+INFO  22:13:41,410 - #45 char
+INFO  22:13:41,410 - #45 x
+INFO  22:13:41,410 - #35 ,
+INFO  22:13:41,410 - #45 y
+INFO  22:13:41,410 - #42 [
+INFO  22:13:41,410 - #43 ]
+INFO  22:13:41,410 - #34 ;
+INFO  22:13:41,410 - #6 const
+INFO  22:13:41,411 - #45 bool
+INFO  22:13:41,411 - #45 t
+INFO  22:13:41,411 - #27 =
+INFO  22:13:41,411 - #47 1
+INFO  22:13:41,411 - #34 ;
+INFO  22:13:41,411 - #40 {
+INFO  22:13:41,411 - #12 void
+INFO  22:13:41,411 - #45 main
+INFO  22:13:41,411 - #38 (
+INFO  22:13:41,412 - #45 int
+INFO  22:13:41,412 - #45 l
+INFO  22:13:41,412 - #39 )
+INFO  22:13:41,412 - #45 int
+INFO  22:13:41,413 - #45 a
+INFO  22:13:41,413 - #34 ;
+INFO  22:13:41,413 - #40 {
+INFO  22:13:41,413 - #41 }
+INFO  22:13:41,413 - #45 bool
+INFO  22:13:41,414 - #45 main
+INFO  22:13:41,414 - #38 (
+INFO  22:13:41,414 - #45 int
+INFO  22:13:41,414 - #45 fp1
+INFO  22:13:41,414 - #35 ,
+INFO  22:13:41,414 - #45 char
+INFO  22:13:41,414 - #45 fp2
+INFO  22:13:41,414 - #42 [
+INFO  22:13:41,414 - #43 ]
+INFO  22:13:41,414 - #39 )
+INFO  22:13:41,414 - #45 int
+INFO  22:13:41,414 - #45 a
+INFO  22:13:41,414 - #35 ,
+INFO  22:13:41,414 - #45 b
+INFO  22:13:41,414 - #42 [
+INFO  22:13:41,415 - #43 ]
+INFO  22:13:41,415 - #34 ;
+INFO  22:13:41,415 - #45 int
+INFO  22:13:41,415 - #45 x
+INFO  22:13:41,415 - #42 [
+INFO  22:13:41,415 - #43 ]
+INFO  22:13:41,415 - #35 ,
+INFO  22:13:41,415 - #45 y
+INFO  22:13:41,415 - #34 ;
+INFO  22:13:41,415 - #45 char
+INFO  22:13:41,415 - #45 eol
+INFO  22:13:41,415 - #34 ;
+INFO  22:13:41,415 - #40 {
+INFO  22:13:41,415 - #41 }
+INFO  22:13:41,415 - #41 }
+INFO  22:13:41,419 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_const(
+    DeclList_var(
+      DeclList_const(
+        DeclList_var(
+          DeclList_e(
+          ) [DeclList_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_arr(
+             a
+            ) [VarDeclElem_arr]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [DeclList_var]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem(
+           pi
+            Constant_num(
+             4
+            ) [Constant_num]
+          ) [ConstDeclElem]
+          ConstDeclList_e(
+          ) [ConstDeclList_e]
+        ) [ConstDecl]
+      ) [DeclList_const]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclElem_var(
+         x
+        ) [VarDeclElem_var]
+        VarDeclList_elem(
+          VarDeclElem_arr(
+           y
+          ) [VarDeclElem_arr]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDeclList_elem]
+      ) [VarDecl]
+    ) [DeclList_var]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclElem(
+       t
+        Constant_bool(
+         1
+        ) [Constant_bool]
+      ) [ConstDeclElem]
+      ConstDeclList_e(
+      ) [ConstDeclList_e]
+    ) [ConstDecl]
+  ) [DeclList_const]
+  MethodDeclList_method(
+    MethodDeclList_method(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRet_void(
+          MethodName(
+           main
+          ) [MethodName]
+        ) [MethodRet_void]
+        OptFormPars_form(
+          FormPars(
+            FormParsElem_elem(
+              Type(
+               int
+              ) [Type]
+             l
+            ) [FormParsElem_elem]
+            FormParsList_e(
+            ) [FormParsList_e]
+          ) [FormPars]
+        ) [OptFormPars_form]
+        VarDeclListMeth_elem(
+          VarDeclListMeth_e(
+          ) [VarDeclListMeth_e]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_var(
+             a
+            ) [VarDeclElem_var]
+            VarDeclList_e(
+            ) [VarDeclList_e]
+          ) [VarDecl]
+        ) [VarDeclListMeth_elem]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_method]
+    MethodDecl(
+      MethodRet_type(
+        Type(
+         bool
+        ) [Type]
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_type]
+      OptFormPars_form(
+        FormPars(
+          FormParsElem_elem(
+            Type(
+             int
+            ) [Type]
+           fp1
+          ) [FormParsElem_elem]
+          FormParsList_elem(
+            FormParsElem_arr(
+              Type(
+               char
+              ) [Type]
+             fp2
+            ) [FormParsElem_arr]
+            FormParsList_e(
+            ) [FormParsList_e]
+          ) [FormParsList_elem]
+        ) [FormPars]
+      ) [OptFormPars_form]
+      VarDeclListMeth_elem(
+        VarDeclListMeth_elem(
+          VarDeclListMeth_elem(
+            VarDeclListMeth_e(
+            ) [VarDeclListMeth_e]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclElem_var(
+               a
+              ) [VarDeclElem_var]
+              VarDeclList_elem(
+                VarDeclElem_arr(
+                 b
+                ) [VarDeclElem_arr]
+                VarDeclList_e(
+                ) [VarDeclList_e]
+              ) [VarDeclList_elem]
+            ) [VarDecl]
+          ) [VarDeclListMeth_elem]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_arr(
+             x
+            ) [VarDeclElem_arr]
+            VarDeclList_elem(
+              VarDeclElem_var(
+               y
+              ) [VarDeclElem_var]
+              VarDeclList_e(
+              ) [VarDeclList_e]
+            ) [VarDeclList_elem]
+          ) [VarDecl]
+        ) [VarDeclListMeth_elem]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDeclElem_var(
+           eol
+          ) [VarDeclElem_var]
+          VarDeclList_e(
+          ) [VarDeclList_e]
+        ) [VarDecl]
+      ) [VarDeclListMeth_elem]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  22:13:41,424 - Parsiranje uspesno zavrseno!

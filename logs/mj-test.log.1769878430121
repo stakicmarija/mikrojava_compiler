@@ -1,0 +1,36 @@
+INFO  17:53:39,455 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  17:53:39,476 - #2 program
+INFO  17:53:39,476 - #45 Marija
+INFO  17:53:39,476 - #6 const
+INFO  17:53:39,476 - #45 int
+INFO  17:53:39,477 - #45 pi
+INFO  17:53:39,477 - #27 =
+INFO  17:53:39,477 - #46 4
+INFO  17:53:39,477 - #34 ;
+INFO  17:53:39,477 - #40 {
+INFO  17:53:39,477 - #41 }
+INFO  17:53:39,478 - Program(
+  ProgName(
+   Marija
+  ) [ProgName]
+  DeclList_const(
+    DeclList_e(
+    ) [DeclList_e]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem(
+       pi
+        Constant_num(
+         4
+        ) [Constant_num]
+      ) [ConstDeclElem]
+      ConstDeclList_e(
+      ) [ConstDeclList_e]
+    ) [ConstDecl]
+  ) [DeclList_const]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  17:53:39,481 - Parsiranje uspesno zavrseno!

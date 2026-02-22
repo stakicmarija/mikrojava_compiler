@@ -1,0 +1,179 @@
+INFO  09:38:29,604 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  09:38:29,624 - #2 program
+INFO  09:38:29,624 - #45 Test2
+INFO  09:38:29,624 - #45 int
+INFO  09:38:29,625 - #45 arr
+INFO  09:38:29,625 - #42 [
+INFO  09:38:29,625 - #43 ]
+INFO  09:38:29,625 - #34 ;
+INFO  09:38:29,625 - #6 const
+INFO  09:38:29,625 - #45 char
+INFO  09:38:29,626 - #45 c
+INFO  09:38:29,626 - #27 =
+INFO  09:38:29,626 - #48 c
+INFO  09:38:29,626 - #34 ;
+INFO  09:38:29,626 - #6 const
+INFO  09:38:29,627 - #45 int
+INFO  09:38:29,627 - #45 i
+INFO  09:38:29,627 - #27 =
+INFO  09:38:29,627 - #46 2
+INFO  09:38:29,627 - #34 ;
+INFO  09:38:29,627 - #6 const
+INFO  09:38:29,627 - #45 int
+INFO  09:38:29,627 - #45 n
+INFO  09:38:29,627 - #27 =
+INFO  09:38:29,627 - #46 6
+INFO  09:38:29,627 - #34 ;
+INFO  09:38:29,627 - #45 int
+INFO  09:38:29,627 - #45 x
+INFO  09:38:29,627 - #34 ;
+INFO  09:38:29,628 - #4 enum
+INFO  09:38:29,628 - #45 EN
+INFO  09:38:29,628 - #40 {
+INFO  09:38:29,628 - #45 jedan
+INFO  09:38:29,628 - #35 ,
+INFO  09:38:29,628 - #45 dva
+INFO  09:38:29,628 - #41 }
+INFO  09:38:29,628 - #40 {
+INFO  09:38:29,629 - #12 void
+INFO  09:38:29,629 - #45 main
+INFO  09:38:29,629 - #38 (
+INFO  09:38:29,629 - #39 )
+INFO  09:38:29,630 - #40 {
+INFO  09:38:29,630 - #45 x
+INFO  09:38:29,630 - #19 ++
+INFO  09:38:29,630 - #34 ;
+INFO  09:38:29,630 - #45 x
+INFO  09:38:29,630 - #21 --
+INFO  09:38:29,631 - #34 ;
+INFO  09:38:29,631 - #41 }
+INFO  09:38:29,631 - #41 }
+INFO  09:38:29,634 - Program(
+  ProgName(
+   Test2
+  ) [ProgName]
+  DeclList_enum(
+    DeclList_var(
+      DeclList_const(
+        DeclList_const(
+          DeclList_const(
+            DeclList_var(
+              DeclList_e(
+              ) [DeclList_e]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclElem_arr(
+                 arr
+                ) [VarDeclElem_arr]
+                VarDeclList_e(
+                ) [VarDeclList_e]
+              ) [VarDecl]
+            ) [DeclList_var]
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+              ConstDeclElem(
+               c
+                Constant_char(
+                 c
+                ) [Constant_char]
+              ) [ConstDeclElem]
+              ConstDeclList_e(
+              ) [ConstDeclList_e]
+            ) [ConstDecl]
+          ) [DeclList_const]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDeclElem(
+             i
+              Constant_num(
+               2
+              ) [Constant_num]
+            ) [ConstDeclElem]
+            ConstDeclList_e(
+            ) [ConstDeclList_e]
+          ) [ConstDecl]
+        ) [DeclList_const]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem(
+           n
+            Constant_num(
+             6
+            ) [Constant_num]
+          ) [ConstDeclElem]
+          ConstDeclList_e(
+          ) [ConstDeclList_e]
+        ) [ConstDecl]
+      ) [DeclList_const]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclElem_var(
+         x
+        ) [VarDeclElem_var]
+        VarDeclList_e(
+        ) [VarDeclList_e]
+      ) [VarDecl]
+    ) [DeclList_var]
+    EnumDecl(
+      EnumName(
+       EN
+      ) [EnumName]
+      EnumElem_id(
+       jedan
+      ) [EnumElem_id]
+      EnumList_elem(
+        EnumElem_id(
+         dva
+        ) [EnumElem_id]
+        EnumList_e(
+        ) [EnumList_e]
+      ) [EnumList_elem]
+    ) [EnumDecl]
+  ) [DeclList_enum]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_inc(
+              Designator_id(
+               x
+              ) [Designator_id]
+            ) [DesignatorStatement_inc]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_designator(
+          DesignatorStatement_dec(
+            Designator_id(
+             x
+            ) [Designator_id]
+          ) [DesignatorStatement_dec]
+        ) [Statement_designator]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+INFO  09:38:29,638 - Parsiranje uspesno zavrseno!

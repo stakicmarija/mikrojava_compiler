@@ -1,0 +1,269 @@
+INFO  22:38:39,574 - Compiling source file: /Users/marijastakic/Desktop/pp1/pp1domaci/workspace/MJCompiler/test/program.mj
+INFO  22:38:39,602 - #2 program
+INFO  22:38:39,602 - #45 T2
+INFO  22:38:39,602 - #40 {
+INFO  22:38:39,603 - #12 void
+INFO  22:38:39,603 - #45 main
+INFO  22:38:39,603 - #38 (
+INFO  22:38:39,603 - #39 )
+INFO  22:38:39,604 - #40 {
+INFO  22:38:39,604 - #45 int
+INFO  22:38:39,604 - #45 i
+ERROR 22:38:39,604 - 
+Sintaksna greska na liniji 3
+INFO  22:38:39,604 - #34 ;
+INFO  22:38:39,604 - #14 for
+INFO  22:38:39,604 - #38 (
+INFO  22:38:39,605 - #45 i
+ERROR 22:38:39,607 - DesignatorStatement OPORAVAK OD GRESKE na liniji: 16
+INFO  22:38:39,609 - #27 =
+INFO  22:38:39,609 - #46 0
+INFO  22:38:39,610 - #34 ;
+INFO  22:38:39,611 - #45 i
+INFO  22:38:39,611 - #33 <
+INFO  22:38:39,611 - #46 5
+INFO  22:38:39,612 - #34 ;
+INFO  22:38:39,613 - #45 i
+INFO  22:38:39,613 - #19 ++
+INFO  22:38:39,613 - #39 )
+INFO  22:38:39,613 - #40 {
+INFO  22:38:39,613 - #7 if
+INFO  22:38:39,613 - #38 (
+INFO  22:38:39,613 - #45 i
+INFO  22:38:39,613 - #26 %
+INFO  22:38:39,613 - #46 2
+INFO  22:38:39,613 - #28 ==
+INFO  22:38:39,613 - #46 0
+INFO  22:38:39,614 - #39 )
+INFO  22:38:39,614 - #40 {
+INFO  22:38:39,614 - #9 print
+INFO  22:38:39,614 - #38 (
+INFO  22:38:39,614 - #45 i
+INFO  22:38:39,614 - #39 )
+INFO  22:38:39,614 - #34 ;
+INFO  22:38:39,614 - #41 }
+INFO  22:38:39,614 - #41 }
+INFO  22:38:39,615 - #41 }
+INFO  22:38:39,615 - #41 }
+INFO  22:38:39,618 - Program(
+  ProgName(
+   T2
+  ) [ProgName]
+  DeclList_e(
+  ) [DeclList_e]
+  MethodDeclList_method(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRet_void(
+        MethodName(
+         main
+        ) [MethodName]
+      ) [MethodRet_void]
+      OptFormPars_e(
+      ) [OptFormPars_e]
+      VarDeclListMeth_e(
+      ) [VarDeclListMeth_e]
+      StatementList_elem(
+        StatementList_elem(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_error(
+            ) [DesignatorStatement_error]
+          ) [Statement_designator]
+        ) [StatementList_elem]
+        Statement_for(
+          OptDesStatement_des(
+            DesignatorStatement_expr(
+              Designator_id(
+               i
+              ) [Designator_id]
+              Assignop(
+              ) [Assignop]
+              Expr_regular(
+                ExprNonTernary(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorMore_num(
+                           0
+                          ) [FactorMore_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprNonTernary]
+              ) [Expr_regular]
+            ) [DesignatorStatement_expr]
+          ) [OptDesStatement_des]
+          Semi(
+          ) [Semi]
+          OptCondition_condition(
+            Condition(
+              CondTermList_term(
+                CondTerm(
+                  CondFactList_fact(
+                    CondFact_relop(
+                      ExprNonTernary(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Unary_e(
+                                ) [Unary_e]
+                                FactorMore_var(
+                                  Designator_id(
+                                   i
+                                  ) [Designator_id]
+                                ) [FactorMore_var]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprNonTernary]
+                      Relop_lt(
+                      ) [Relop_lt]
+                      ExprNonTernary(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Unary_e(
+                                ) [Unary_e]
+                                FactorMore_num(
+                                 5
+                                ) [FactorMore_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprNonTernary]
+                    ) [CondFact_relop]
+                  ) [CondFactList_fact]
+                ) [CondTerm]
+              ) [CondTermList_term]
+            ) [Condition]
+          ) [OptCondition_condition]
+          Semi(
+          ) [Semi]
+          OptDesStatement_des(
+            DesignatorStatement_inc(
+              Designator_id(
+               i
+              ) [Designator_id]
+            ) [DesignatorStatement_inc]
+          ) [OptDesStatement_des]
+          Statement_list(
+            StatementList_elem(
+              StatementList_e(
+              ) [StatementList_e]
+              Statement_if_else(
+                Condition(
+                  CondTermList_term(
+                    CondTerm(
+                      CondFactList_fact(
+                        CondFact_relop(
+                          ExprNonTernary(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_mul(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Unary_e(
+                                      ) [Unary_e]
+                                      FactorMore_var(
+                                        Designator_id(
+                                         i
+                                        ) [Designator_id]
+                                      ) [FactorMore_var]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                  Mulop_rem(
+                                  ) [Mulop_rem]
+                                  Factor(
+                                    Unary_e(
+                                    ) [Unary_e]
+                                    FactorMore_num(
+                                     2
+                                    ) [FactorMore_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_mul]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprNonTernary]
+                          Relop_eq(
+                          ) [Relop_eq]
+                          ExprNonTernary(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Unary_e(
+                                    ) [Unary_e]
+                                    FactorMore_num(
+                                     0
+                                    ) [FactorMore_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprNonTernary]
+                        ) [CondFact_relop]
+                      ) [CondFactList_fact]
+                    ) [CondTerm]
+                  ) [CondTermList_term]
+                ) [Condition]
+                Statement_list(
+                  StatementList_elem(
+                    StatementList_e(
+                    ) [StatementList_e]
+                    Statement_print(
+                      Expr_regular(
+                        ExprNonTernary(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Unary_e(
+                                  ) [Unary_e]
+                                  FactorMore_var(
+                                    Designator_id(
+                                     i
+                                    ) [Designator_id]
+                                  ) [FactorMore_var]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprNonTernary]
+                      ) [Expr_regular]
+                    ) [Statement_print]
+                  ) [StatementList_elem]
+                ) [Statement_list]
+                ElseStatement_e(
+                ) [ElseStatement_e]
+              ) [Statement_if_else]
+            ) [StatementList_elem]
+          ) [Statement_list]
+        ) [Statement_for]
+      ) [StatementList_elem]
+    ) [MethodDecl]
+  ) [MethodDeclList_method]
+) [Program]
+ERROR 22:38:39,626 - Semanticka greska: nepoznata promenljiva: i na liniji 5
+ERROR 22:38:39,626 - Semanticka greska: nepoznata promenljiva na levoj strani na liniji 5
+ERROR 22:38:39,626 - Semanticka greska: nepoznata promenljiva: i na liniji 5
+ERROR 22:38:39,626 - Semanticka greska: nekompatibilni tipovi u relaciji na liniji 17
+ERROR 22:38:39,626 - Semanticka greska: nepoznata promenljiva: i na liniji 5
+ERROR 22:38:39,626 - Semanticka greska: nepoznat designator u inc   na liniji 5
+ERROR 22:38:39,626 - Semanticka greska: nepoznata promenljiva: i na liniji 6
+ERROR 22:38:39,626 - Semanticka greska: nevalidni tipovi za mulop operaciju  na liniji 14
+ERROR 22:38:39,626 - Semanticka greska: nekompatibilni tipovi u relaciji na liniji 14
+ERROR 22:38:39,627 - Semanticka greska: nepoznata promenljiva: i na liniji 7
+ERROR 22:38:39,627 - Semanticka greska: nevalidni tip za print na liniji 21
+ERROR 22:38:39,627 - Semanticka greska: uslov u if nije bool na liniji 14
+ERROR 22:38:39,627 - Generisanje NIJE uspesno zavrseno!
